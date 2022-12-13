@@ -1,0 +1,63 @@
+@media all and (max-width: 768px) {
+  .btn-xs-01 {
+    background: #2B82A3;
+    border-radius: 200px;
+    padding: 12px 87px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF; }
+
+  .btn-xs-02 {
+    border: 2px solid #207686;
+    box-sizing: border-box;
+    border-radius: 200px;
+    padding: 12px 68px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #207686; }
+
+  .btn-xs-03 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF; } }
+@media all and (min-width: 768px) {
+  .btn-lg-01 {
+    background: #2B82A3;
+    border-radius: 100px;
+    padding: 16px 60px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF; }
+
+  .btn-lg-02 {
+    padding: 90px 30px;
+    border: 2px solid #207686;
+    box-sizing: border-box;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #207686; }
+
+  .btn-lg-03 {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF; } }
+
+/*# sourceMappingURL=Button.css.map */

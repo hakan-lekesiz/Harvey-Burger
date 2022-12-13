@@ -1,0 +1,38 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .showcase-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 144px 0 24px 0;
+    background: #2F8EB3; }
+    .showcase-02 .c-item-01 {
+      width: 105px;
+      text-align: center; }
+    .showcase-02 .c-item-02 {
+      width: 253px;
+      text-align: center;
+      margin-top: 16px; }
+    .showcase-02 .c-item-03 {
+      display: none; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .showcase-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 232px 0 60px 0;
+    background: #2F8EB3; }
+    .showcase-02 .c-item-01 {
+      width: 392px;
+      text-align: center; }
+    .showcase-02 .c-item-02 {
+      width: 800px;
+      text-align: center;
+      margin-top: 40px; }
+    .showcase-02 .c-item-03 {
+      margin-top: 80px; } }
+
+/*# sourceMappingURL=02.css.map */

@@ -1,0 +1,119 @@
+@import "../Base/Colour.scss";
+@import "../Base/Global.scss";
+
+[data-expand] {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    @include dynamicTransition(height 0.4s ease-in-out, opacity 0.3s);
+
+    &.on {
+        opacity: 1;
+        @include dynamicTransition(height 0.4s ease-in-out, opacity 1s);
+    }
+
+    &.init-on {
+        opacity: 1;
+        height: auto;
+    }
+}
+
+#contentContainer {
+    #expandedContentContainer {
+        display: none;
+    }
+
+    #shrinkContentBtn {
+        display: none;
+    }
+
+    &.on {
+        #expandedContentContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #shrinkContentBtn {
+            display: block;
+        }
+
+        #expandContentBtn {
+            display: none;
+        }
+    }
+}
+
+
+// I.III.III. Animation duration:
+$animation-on-duration: 0.5;
+$animation-off-duration: 0.5;
+//
+// I.III.IV. Animation duration:
+$animation-on-ease: 'ease-in-out';
+$animation-off-ease: 'ease-in-out';
+
+
+
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .bottom-to-top-animate-container {
+        height: 41px;
+        width: 100%;
+        padding-right: 16px;
+        overflow: hidden;
+
+        [data-bottom-to-top-animate] {
+            height: 41px;
+            position: absolute;
+            transform: translateY(42px);
+            @include dynamicTransition(transform 0s);
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            display:flex;
+            align-items: center;
+
+            &.active {
+                transform: translateY(0);
+                @include dynamicTransition(transform #{$animation-off-duration}s #{$animation-on-ease});
+            }
+
+            &.up {
+                transform: translateY(-42px);
+                @include dynamicTransition(transform #{$animation-off-duration}s #{$animation-on-ease});
+            }
+        }
+    }
+
+}
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .bottom-to-top-animate-container {
+        height: 21px;
+        width: 100%;
+        padding-right: 16px;
+        overflow: hidden;
+
+        [data-bottom-to-top-animate] {
+            position: absolute;
+            transform: translateY(22px);
+            @include dynamicTransition(transform 0s);
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+
+            &.active {
+                transform: translateY(0);
+                @include dynamicTransition(transform #{$animation-off-duration}s #{$animation-on-ease});
+            }
+
+            &.up {
+                transform: translateY(-22px);
+                @include dynamicTransition(transform #{$animation-off-duration}s #{$animation-on-ease});
+            }
+        }
+    }
+}
+

@@ -1,0 +1,54 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .micro-04 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    width: 240px;
+    margin-left: 0px !important; }
+    .micro-04:first-child {
+      margin-left: 20px !important; }
+    .micro-04 > .c-item-01 {
+      background: #F2FDFF;
+      padding: 30px;
+      border-radius: 24px;
+      margin-bottom: 16px; }
+      .micro-04 > .c-item-01 > .c-item-01-A {
+        margin-bottom: 16px; }
+        .micro-04 > .c-item-01 > .c-item-01-A img {
+          width: 100%;
+          object-fit: cover;
+          object-position: center; }
+    .micro-04 > .c-item-02 {
+      margin-bottom: 16px;
+      text-align: start !important; }
+    .micro-04 > .c-item-03 {
+      display: none; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .micro-04 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    width: 342px;
+    min-height: 506px; }
+    .micro-04 > .c-item-01 {
+      margin-bottom: 24px;
+      padding: 40px;
+      background: #F2FDFF;
+      border-radius: 32px;
+      transition: 0.3s; }
+      .micro-04 > .c-item-01 > .c-item-01-A img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center; }
+    .micro-04 > .c-item-02 {
+      width: 300px;
+      margin-bottom: 16px;
+      text-align: start !important; }
+    .micro-04 > .c-item-03 {
+      width: 300px; }
+    .micro-04:hover {
+      cursor: pointer; } }
+
+/*# sourceMappingURL=04.css.map */

@@ -1,0 +1,58 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .micro-05 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-bottom: 20px; }
+    .micro-05 .c-item-01 {
+      width: 256px;
+      margin-bottom: 20px;
+      align-self: baseline; }
+    .micro-05 .c-item-02 {
+      margin-bottom: 48px;
+      font-weight: 600;
+      font-size: 16px;
+      width: 256px;
+      line-height: 20px;
+      letter-spacing: -0.01em;
+      color: #0A242C;
+      align-self: baseline;
+      opacity: 0.6; }
+    .micro-05 > .c-item-03 {
+      width: 240px; }
+      .micro-05 > .c-item-03 img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center; }
+    .micro-05:nth-last-child(-n+1) {
+      margin-bottom: 0; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .micro-05 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 464px;
+    background: #fff;
+    border-radius: 32px;
+    height: fit-content; }
+    .micro-05 .c-item-01 {
+      margin-bottom: 40px; }
+    .micro-05 .c-item-02 {
+      margin-bottom: 48px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #0A242C;
+      opacity: 0.6; }
+    .micro-05 > .c-item-03 img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center; } }
+
+/*# sourceMappingURL=05.css.map */

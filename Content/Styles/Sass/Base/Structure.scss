@@ -1,0 +1,207 @@
+@import "Global.scss";
+@import "Colour.scss";
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+
+    &.noscroll {
+        position: fixed;
+        width: 100%;
+        overflow-y: scroll;
+    }
+}
+
+#content-wrapper {
+    z-index: 0;
+}
+
+#overlay-wrapper {
+    display: block;
+    visibility: hidden;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(34, 31, 68, 0.24);
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s;
+
+    &.on {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.c-wrapper {
+    margin: 0 auto 0 auto;
+}
+
+.no-header {
+    header {
+        display: none;
+    }
+}
+
+.no-menu {
+    #menu-primary,
+    #hamburger-menu-wrapper {
+        display: none;
+    }
+}
+
+.no-footer {
+    footer {
+        display: none;
+    }
+}
+
+.scroll-type-01 {
+
+    &::-webkit-scrollbar {
+        height: 4px;
+        border-radius: 100px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #ECEAFA;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        /* Handle */
+        background: #BCD9FF;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        /* Handle on hover */
+    }
+}
+
+.scroll-type-02 {
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        border-radius: 100px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #ECEAFA;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        /* Handle */
+        background: #BCD9FF;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        /* Handle on hover */
+    }
+}
+
+#page-wrapper {
+    &.menu-on {
+        z-index: 101;
+    }
+}
+
+img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* XS1 */
+@media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
+    .c-wrapper {
+        width: #{$c-wrapper-xs1-width};
+    }
+}
+
+/* XS2 */
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .c-wrapper {
+        width: #{$c-wrapper-xs2-width};
+    }
+}
+
+
+/* Common SM1 and SM2 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    body {
+        zoom: 0.57;
+    }
+
+    .overlay-wrapper-style {
+        backdrop-filter: unset !important;
+        height: unset !important;
+        top: 0 !important;
+    }
+
+    #overlay-wrapper {
+        display: none;
+        visibility: hidden;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(34, 31, 68, 0.24);
+        opacity: 0;
+        transition: visibility 0s 0.3s, opacity 0.3s 0s;
+
+        &.on {
+            display: none;
+            visibility: visible;
+            opacity: 0;
+            transition: visibility 0s 0s, opacity 0.3s 0.05s;
+        }
+    }
+}
+
+/* SM1 */
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+    .c-wrapper {
+        width: #{$c-wrapper-lg-width + "px"};
+    }
+}
+
+/* SM2 */
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .c-wrapper {
+        width: #{$c-wrapper-lg-width + "px"};
+    }
+}
+
+/* Common MD and LG */
+@media all and (min-width: #{$mq-md + "px"}) {
+}
+
+/* MD */
+@media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
+    body {
+        zoom: 0.861;
+    }
+
+    .c-wrapper {
+        width: #{$c-wrapper-lg-width + "px"};
+    }
+}
+
+/* LG */
+@media all and (min-width: #{$mq-lg + "px"}) {
+    .c-wrapper {
+        width: #{$c-wrapper-lg-width + "px"};
+    }
+}

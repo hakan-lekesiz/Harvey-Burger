@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,qBAAqB;AACrB,iCAAoD;EAChD,WAAY;IACR,gBAAgB,EAAE,OAAO;IACzB,OAAO,EAAE,aAAa;AAO9B,uBAAuB;AACvB,SAAS;AACT,yDAAsF;EAI9E,sBAAW;IACP,KAAK,EAAE,KAAK;AAOxB,uBAAuB;AACvB,iCAA8C;EAC1C,WAAY;IACR,gBAAgB,EAAE,OAAO;IACzB,OAAO,EAAE,cAAc;IAKf,mCAAI;MACA,OAAO,EAAE,WAAW;MACpB,aAAa,EAAE,IAAI",
+"sources": ["../../../Sass/Component/Section/23.scss"],
+"names": [],
+"file": "23.css"
+}

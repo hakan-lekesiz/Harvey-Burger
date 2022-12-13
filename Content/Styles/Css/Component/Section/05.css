@@ -1,0 +1,107 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-05 {
+    margin-bottom: 33px;
+  }
+  .section-05 > .c-wrapper .c-item-01 {
+    font-weight: 400;
+    font-size: 1.3529411765em;
+    line-height: 30px;
+    color: #0052C3;
+    margin-bottom: 19px;
+    text-align: center;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A {
+    width: 100%;
+    height: 336px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A .c-unit-01 {
+    width: 100%;
+    height: 201px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A .c-unit-02 {
+    font-weight: 600;
+    font-size: 1.1764705882em;
+    line-height: 24px;
+    color: #4D505E;
+    padding: 0 34px;
+    margin-bottom: 5px;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A .c-unit-03 {
+    font-weight: 400;
+    font-size: 0.8823529412em;
+    line-height: 18px;
+    color: #777D96;
+    padding: 0 34px;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-05 {
+    margin-bottom: 50px;
+  }
+  .section-05 > .c-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-05 > .c-wrapper .c-item-01 {
+    font-weight: 400;
+    font-size: 2.0588235294em;
+    line-height: 42px;
+    color: #0052C3;
+    margin-bottom: 50px;
+  }
+  .section-05 > .c-wrapper .c-item-02 {
+    display: flex;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A {
+    width: 352px;
+    height: 336px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A .c-unit-01 {
+    width: 352px;
+    height: 201px;
+    margin-bottom: 30px;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A .c-unit-02 {
+    font-weight: 600;
+    font-size: 1.1764705882em;
+    line-height: 24px;
+    color: #4D505E;
+    padding: 0 34px;
+    margin-bottom: 5px;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A .c-unit-03 {
+    font-weight: 400;
+    font-size: 0.8823529412em;
+    line-height: 18px;
+    color: #777D96;
+    padding: 0 34px;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+  .section-05 > .c-wrapper .c-item-02 .c-item-02-A:not(:last-child) {
+    margin-right: 19px;
+  }
+}
+
+/*# sourceMappingURL=05.css.map */

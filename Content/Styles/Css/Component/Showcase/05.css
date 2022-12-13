@@ -1,0 +1,97 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .showcase-05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 144px 0 96px 0;
+    background: #104860; }
+    .showcase-05 .c-item-01 {
+      width: 140px;
+      text-align: center; }
+    .showcase-05 .c-item-02 {
+      width: 300px;
+      text-align: center;
+      margin-top: 16px;
+      font-family: Mont;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #FFFFFF; }
+    .showcase-05 .c-item-03 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 156px;
+      height: 156px;
+      border: 4px solid #FFFFFF;
+      border-radius: 200px;
+      margin-top: 40px;
+      text-decoration: none;
+      color: #FFFFFF;
+      z-index: 1;
+      font-family: Mont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .showcase-05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #104860; }
+    .showcase-05 .c-item-01 {
+      width: 220px;
+      text-align: center; }
+    .showcase-05 .c-item-02 {
+      width: 926px;
+      text-align: center;
+      margin-top: 48px; }
+    .showcase-05 .c-item-03 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 200px;
+      border: 4px solid #FFFFFF;
+      border-radius: 200px;
+      margin-top: 98px;
+      text-decoration: none;
+      color: #FFFFFF;
+      z-index: 1;
+      font-family: Mont;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 22px;
+      padding: 7px 38px;
+      text-align: center; }
+      .showcase-05 .c-item-03:hover {
+        background: #176789; }
+    .showcase-05 .c-item-04 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center; }
+      .showcase-05 .c-item-04 video {
+        width: 100%;
+        object-fit: cover; }
+      .showcase-05 .c-item-04 background-image {
+        position: relative;
+        background-size: cover;
+        background-position: center center; } }
+
+/*# sourceMappingURL=05.css.map */

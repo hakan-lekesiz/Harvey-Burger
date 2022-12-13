@@ -1,0 +1,34 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .showcase-04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 144px 0 24px 0; }
+    .showcase-04 .c-unit-01 {
+      width: 105px;
+      text-align: center; }
+    .showcase-04 .c-unit-02 {
+      width: 253px;
+      text-align: center;
+      margin-top: 16px; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .showcase-04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 232px 0 60px 0; }
+    .showcase-04 .c-unit-01 {
+      width: 392px;
+      text-align: center; }
+    .showcase-04 .c-unit-02 {
+      width: 800px;
+      text-align: center;
+      margin-top: 40px; } }
+
+/*# sourceMappingURL=04.css.map */

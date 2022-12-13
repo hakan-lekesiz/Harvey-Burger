@@ -1,0 +1,52 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-29 {
+    background: #F2FDFF;
+    padding: 24px 0 96px 0; }
+    .section-29 .c-wrapper .c-container-01 {
+      height: 320px;
+      width: 100%; }
+    .section-29 .c-wrapper .c-container-02 {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column; }
+      .section-29 .c-wrapper .c-container-02 .c-item-01 {
+        width: 300px;
+        margin-bottom: 20px; }
+        .section-29 .c-wrapper .c-container-02 .c-item-01 .c-unit-01 {
+          font-weight: 600;
+          font-size: 1em;
+          line-height: 20px;
+          color: #0A242C; }
+        .section-29 .c-wrapper .c-container-02 .c-item-01 .c-unit-02 {
+          font-weight: 500;
+          font-size: 0.875em;
+          line-height: 20px;
+          color: #0A242C; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-29 {
+    background: #F2FDFF;
+    padding: 60px 0 240px 0; }
+    .section-29 .c-wrapper .c-container-01 {
+      height: 600px;
+      width: 100%; }
+    .section-29 .c-wrapper .c-container-02 {
+      margin-top: 80px;
+      display: flex; }
+      .section-29 .c-wrapper .c-container-02 .c-item-01 {
+        width: 424px;
+        margin-right: 64px; }
+        .section-29 .c-wrapper .c-container-02 .c-item-01 .c-unit-01 {
+          font-weight: 600;
+          font-size: 1.5em;
+          line-height: 32px;
+          color: #0A242C; }
+        .section-29 .c-wrapper .c-container-02 .c-item-01 .c-unit-02 {
+          margin-top: 20px;
+          font-weight: 500;
+          font-size: 1.25em;
+          line-height: 26px;
+          color: #0A242C; } }
+
+/*# sourceMappingURL=29.css.map */

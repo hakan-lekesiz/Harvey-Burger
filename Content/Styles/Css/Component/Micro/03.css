@@ -1,0 +1,58 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .micro-03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #D5E8EE;
+    border-radius: 32px;
+    padding: 24px;
+    width: 100%;
+    height: 226px; }
+    .micro-03 > .c-item-01 {
+      align-self: baseline;
+      flex: 1; }
+    .micro-03 > .c-item-02 {
+      display: none;
+      margin-bottom: 48px;
+      text-align: start !important; }
+    .micro-03 > .c-item-03 {
+      width: 200px; }
+      .micro-03 > .c-item-03 img {
+        width: 100%;
+        height: 126px;
+        object-fit: cover;
+        object-position: center; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .micro-03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #D5E8EE;
+    border-radius: 32px;
+    padding: 40px;
+    width: 708px;
+    height: 500px; }
+    .micro-03 > .c-item-01 {
+      width: 612px;
+      margin-bottom: 48px; }
+    .micro-03 > .c-item-02 {
+      display: none;
+      margin-bottom: 48px;
+      text-align: start !important; }
+    .micro-03 > .c-item-03 {
+      width: 508px;
+      height: 336px; }
+      .micro-03 > .c-item-03 img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: 0.3s; }
+    .micro-03:hover {
+      cursor: pointer;
+      border-radius: 32px; }
+      .micro-03:hover > .c-item-03 img {
+        opacity: 0.3; } }
+
+/*# sourceMappingURL=03.css.map */

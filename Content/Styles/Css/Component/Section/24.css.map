@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,qBAAqB;AACrB,iCAAoD;EAChD,WAAY;IACR,UAAU,EAAE,OAAO;IACnB,OAAO,EAAE,cAAc;AAe/B,uBAAuB;AACvB,iCAA8C;EAC1C,WAAY;IACR,UAAU,EAAE,OAAO;IACnB,OAAO,EAAE,cAAc;IAEvB,sBAAW;MACP,KAAK,EAAE,KAAK;MACZ,MAAM,EAAE,MAAM;MAKd,iCAAW;QACP,UAAU,EAAE,IAAI",
+"sources": ["../../../Sass/Component/Section/24.scss"],
+"names": [],
+"file": "24.css"
+}

@@ -1,0 +1,43 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .micro-07 {
+    display: block;
+    width: 320px;
+    height: 320px;
+    border-radius: 24px; }
+    .micro-07:first-child {
+      margin-left: 20px !important; }
+    .micro-07 .c-item-01 {
+      width: 320px;
+      height: 320px; }
+      .micro-07 .c-item-01 img {
+        width: 100%;
+        height: auto;
+        border-radius: 24px; }
+    .micro-07 .c-item-02 {
+      position: absolute;
+      bottom: 24px;
+      left: 24px; }
+      .micro-07 .c-item-02 svg {
+        width: 60px;
+        height: 60px; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .micro-07 {
+    display: block;
+    width: 464px;
+    height: 464px;
+    border-radius: 32px; }
+    .micro-07 .c-item-01 {
+      width: 464px;
+      height: 464px; }
+      .micro-07 .c-item-01 img {
+        width: 100%;
+        height: auto;
+        border-radius: 32px; }
+    .micro-07 .c-item-02 {
+      position: absolute;
+      bottom: 32px;
+      left: 32px; } }
+
+/*# sourceMappingURL=07.css.map */

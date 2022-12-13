@@ -1,0 +1,16 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-17 {
+    height: 199px;
+    background: linear-gradient(180deg, #F0F6FF 0%, #E7F0FF 112.93%);
+  }
+}
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-17 {
+    height: 196px;
+    background: linear-gradient(180deg, #F0F6FF 0%, #E7F0FF 112.93%);
+  }
+}
+
+/*# sourceMappingURL=17.css.map */

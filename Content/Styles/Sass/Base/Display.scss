@@ -1,0 +1,23 @@
+@import "Global.scss";
+//
+//
+//
+//
+
+//
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    @include dsp-no-wrapper("xs1", 20);
+    @include dsp-overflow("xs1", 8, 160, 12);
+    @include dsp-grid("xs1", 1, 20, 20); 
+
+}
+ 
+/* LG */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    @include dsp-grid("lg", 3, 32, 24); 
+  
+}
+.d-none {
+    display: none !important;
+}
