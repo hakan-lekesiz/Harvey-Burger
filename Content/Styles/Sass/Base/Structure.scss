@@ -116,6 +116,12 @@ img {
     width: 100%;
     height: 100%;
 }
+picture {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
 
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
