@@ -102,6 +102,10 @@
                         bottom: 0;
                         background-color: rgba(217, 217, 217, 0.2196078431);
                     }
+
+                    .c-unit-01-B {
+                        display: none;
+                    }
                 }
 
                 > .c-unit-02 {
@@ -109,6 +113,10 @@
                     align-items: center;
                     justify-content: center;
                     padding-left: 46px;
+
+                    .c-unit-01-B {
+                        display: none;
+                    }
                 }
             }
         }

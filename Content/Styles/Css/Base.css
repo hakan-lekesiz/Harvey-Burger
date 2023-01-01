@@ -328,6 +328,18 @@ picture {
   body .comp-footer-01 .c-unit-01-02 {
     display: none;
   }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
   body.f-scrolled-02 .comp-footer-01 {
     background: #E60000;
     display: block;
@@ -405,6 +417,18 @@ picture {
   body .comp-footer-01 .c-unit-01-02 {
     display: none;
   }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
   body.f-scrolled-02 .comp-footer-01 {
     background: #E60000;
     display: block;
@@ -418,6 +442,18 @@ picture {
   body.f-scrolled-02 .comp-header-01 {
     background: #E60000;
   }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
   body.f-scrolled-03 .comp-footer-01 {
     display: block;
     background: #111;
@@ -425,12 +461,36 @@ picture {
   body.f-scrolled-03 .comp-header-01 {
     background: #111;
   }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
   body.f-scrolled-04 .comp-footer-01 {
     display: none;
     background: #FFF;
   }
   body.f-scrolled-04 .comp-header-01 {
     background: #FFF;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: block;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: block;
   }
 }
 /* MD */
@@ -931,6 +991,9 @@ picture {
     position: absolute;
     bottom: -105px;
     left: -71px;
+  }
+  .section-07 > .c-wrapper .c-container-02 .c-item-04 .c-unit-02 > svg {
+    max-width: 350px;
   }
 }
 /* Common sm, md, lg */
@@ -3453,6 +3516,19 @@ body.transitPage #page-wrapper {
     display: none;
   }
 
+  .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
+
   .header-transparent .comp-header-01 > .c-wrapper #activity-container #bookmark-button {
     border: none;
   }
@@ -3749,11 +3825,17 @@ body.transitPage #page-wrapper {
     bottom: 0;
     background-color: rgba(217, 217, 217, 0.2196078431);
   }
+  #hamburger-menu-wrapper #site-logo-menu > .c-item-01 > .c-unit-01 .c-unit-01-B {
+    display: none;
+  }
   #hamburger-menu-wrapper #site-logo-menu > .c-item-01 > .c-unit-02 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-left: 46px;
+  }
+  #hamburger-menu-wrapper #site-logo-menu > .c-item-01 > .c-unit-02 .c-unit-01-B {
+    display: none;
   }
   #hamburger-menu-wrapper #close-button-menu {
     position: absolute;

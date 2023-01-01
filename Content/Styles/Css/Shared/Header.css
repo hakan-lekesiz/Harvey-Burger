@@ -149,6 +149,19 @@
     display: none;
   }
 
+  .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
+
   .header-transparent .comp-header-01 > .c-wrapper #activity-container #bookmark-button {
     border: none;
   }

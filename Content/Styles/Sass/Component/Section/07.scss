@@ -101,6 +101,10 @@
                         position: absolute;
                         bottom: -105px;
                         left: -71px;
+
+                        > svg {
+                            max-width: 350px;
+                        }
                     }
                 }
             }

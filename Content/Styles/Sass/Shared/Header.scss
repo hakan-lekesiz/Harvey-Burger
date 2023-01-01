@@ -229,6 +229,33 @@
         }
     }
 
+    .comp-header-01 {
+
+        #site-logo {
+            > .c-item-01 {
+                > .c-unit-01 {
+                    > .c-unit-01-A {
+                        display: block;
+                    }
+
+                    > .c-unit-01-B {
+                        display: none;
+                    }
+                }
+
+                > .c-unit-02 {
+                    > .c-unit-01-A {
+                        display: block;
+                    }
+
+                    > .c-unit-01-B {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
     .header-transparent {
         .comp-header-01 {
 

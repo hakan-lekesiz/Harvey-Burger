@@ -78,6 +78,9 @@
     bottom: -105px;
     left: -71px;
   }
+  .section-07 > .c-wrapper .c-container-02 .c-item-04 .c-unit-02 > svg {
+    max-width: 350px;
+  }
 }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {

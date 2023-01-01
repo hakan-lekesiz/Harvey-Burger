@@ -124,8 +124,6 @@ picture {
     height: 100%;
 }
 
-
-
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
 }
@@ -161,6 +159,33 @@ picture {
 
             .c-unit-01-02 {
                 display: none;
+            }
+        }
+
+        .comp-header-01 {
+
+            #site-logo {
+                > .c-item-01 {
+                    > .c-unit-01 {
+                        > .c-unit-01-A {
+                            display: block;
+                        }
+
+                        > .c-unit-01-B {
+                            display: none;
+                        }
+                    }
+
+                    > .c-unit-02 {
+                        > .c-unit-01-A {
+                            display: block;
+                        }
+
+                        > .c-unit-01-B {
+                            display: none;
+                        }
+                    }
+                }
             }
         }
 
@@ -263,6 +288,33 @@ picture {
             }
         }
 
+        .comp-header-01 {
+
+            #site-logo {
+                > .c-item-01 {
+                    > .c-unit-01 {
+                        > .c-unit-01-A {
+                            display: block;
+                        }
+
+                        > .c-unit-01-B {
+                            display: none;
+                        }
+                    }
+
+                    > .c-unit-02 {
+                        > .c-unit-01-A {
+                            display: block;
+                        }
+
+                        > .c-unit-01-B {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
         &.f-scrolled-02 {
             .comp-footer-01 {
                 background: #E60000;
@@ -279,6 +331,30 @@ picture {
 
             .comp-header-01 {
                 background: #E60000;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -290,6 +366,30 @@ picture {
 
             .comp-header-01 {
                 background: #111;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -301,6 +401,30 @@ picture {
 
             .comp-header-01 {
                 background: #FFF;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: none;
+                            }
+
+                            > .c-unit-01-B {
+                                display: block;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: none;
+                            }
+
+                            > .c-unit-01-B {
+                                display: block;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
