@@ -295,15 +295,46 @@
   }
   .comp-header-01 > .c-wrapper #activity-container {
     margin-top: 7px;
-    /*  > .menu-logo-02 {
-          display:none;
-      }*/
   }
   .comp-header-01 > .c-wrapper #activity-container > .menu-activities {
     display: flex;
   }
   .comp-header-01 > .c-wrapper #activity-container > .menu-activities > .c-item-01 {
     margin-right: 55px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .comp-header-01 > .c-wrapper #activity-container > .menu-activities > .c-item-01 > svg {
+    margin-right: 8px;
+  }
+  .comp-header-01 > .c-wrapper #activity-container > .menu-activities > .c-item-01-01 {
+    position: absolute;
+    background: #000000;
+    border: 1px solid #3E3B3B;
+    left: -50px;
+    top: 32px;
+    display: none;
+  }
+  .comp-header-01 > .c-wrapper #activity-container > .menu-activities > .c-item-01-01 > .c-unit-01 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .comp-header-01 > .c-wrapper #activity-container > .menu-activities > .c-item-01-01 > .c-unit-01 > svg {
+    margin-right: 13px;
+  }
+  .comp-header-01 > .c-wrapper #activity-container > .menu-activities > .c-item-01-01 > .c-unit-01:not(:last-child) {
+    border-bottom: 1px solid #3E3B3B;
   }
   .comp-header-01 > .c-wrapper #activity-container > .menu-activities > .c-item-02 {
     margin-left: 27.12px;
@@ -325,6 +356,12 @@
     top: -53px;
     bottom: 0;
     background-color: rgba(217, 217, 217, 0.2196078431);
+  }
+  .comp-header-01 > .c-wrapper #activity-container.on > .menu-activities {
+    display: flex;
+  }
+  .comp-header-01 > .c-wrapper #activity-container.on > .menu-activities > .c-item-01-01 {
+    display: block;
   }
 }
 

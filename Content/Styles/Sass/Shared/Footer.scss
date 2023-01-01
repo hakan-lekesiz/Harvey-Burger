@@ -5,11 +5,11 @@
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
 
     .comp-footer-01 {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
-
+        z-index:1;
         > .c-wrapper {
             width: 100%;
 
@@ -66,7 +66,8 @@
                                 color: #FFFFFF;
 
                                 > .scroll-01 {
-                                    display: block;
+                                    display: flex;
+                                    align-items: center;
                                     animation: marquee 25s linear infinite;
                                     transform: translateX(100%);
                                 }
@@ -89,10 +90,11 @@
 /* Common sm, md, lg */
 @media all and (min-width: #{$mq-sm1 + "px"}) {
     .comp-footer-01 {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
+        z-index: 1;
 
         > .c-wrapper {
             width: 100%;
@@ -150,9 +152,10 @@
                                 color: #FFFFFF;
 
                                 > .scroll-01 {
-                                    display: block;
                                     animation: marquee 35s linear infinite;
                                     transform: translateX(100%);
+                                    display: flex;
+                                    align-items: center;
                                 }
                             }
                         }
@@ -166,7 +169,7 @@
                 }
             }
         }
-    }
+    }    
 }
 
 @media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {

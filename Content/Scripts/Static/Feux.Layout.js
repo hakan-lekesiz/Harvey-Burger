@@ -106,3 +106,12 @@ var Offer = {
 //her 10 saniyede bir text değiştirliyor
 setInterval(Feux.Layout.Actions.bottomToTopAnimateTexts, 5000);
 
+var HarveyScripts = {
+    addOnClassLanguageArea: function () {
+        document.getElementById("activity-container").classList.add("on");
+    },
+    removeOnClassLanguageArea: function () {
+        document.getElementById("activity-container").classList.remove("on");
+    }
+} 
+

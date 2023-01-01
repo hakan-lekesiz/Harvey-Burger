@@ -1360,6 +1360,551 @@
         .submenu-ad {
         }
     }
+
+    body {
+        &.f-scrolled-04 {
+            #menu-primary {
+                height: 100%;
+                //
+                // Level 1 <ul>
+                .ul-level-1 {
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    //
+                    // Level 1 <li>
+                    > li {
+                        display: flex;
+                        align-items: center;
+
+
+                        &.left-menu-last-li {
+                            display: flex;
+                            flex: 1;
+                        }
+
+                        &:first-child {
+                        }
+
+                        &:last-child {
+                        }
+                        //
+                        // Level 1 <li> link item
+                        > a:not(.submenu-ad) {
+                            padding: 0 22.5px;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            @include dynamicTransition(color 0.2s);
+                            font-size: 1em;
+                            font-weight: 600;
+                            line-height: 18px;
+                            color: #E60000;
+                        }
+
+                        &:nth-last-child(-n+3) {
+                            display: none;
+                        }
+
+                        &.menu-li-second-item {
+                            .menu-hover-svg {
+                                display: none;
+                            }
+                        }
+
+                        &.where-we-container {
+                            display: none;
+
+                            .menu-hover-svg {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    > li.tel-no-container {
+                        display: none;
+                    }
+                    //
+                    // Level 1 <li> with submenu
+                    > li.hasSubmenu {
+                        //
+                        // Submenu background layer
+
+                        &:first-child {
+                            &::after {
+                                content: '';
+                                visibility: hidden;
+                                position: fixed;
+                                z-index: 0;
+                                top: 81px;
+                                right: 0;
+                                left: 0;
+                                display: block;
+                                background-color: #FFF;
+                                box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+                                cursor: default;
+                                opacity: 0;
+                                box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.05);
+                                @include dynamicTransition(opacity 0.2s, visibility 0.0s 0.2s);
+                                border-top: 2px solid #0052C3;
+                                border-radius: 8px;
+                            }
+                        }
+
+                        .submenu-ad {
+                            left: 0;
+                            position: fixed;
+                            z-index: 1;
+                            display: block;
+                            opacity: 0;
+                            @include dynamicTransition(opacity 0.2s, visibility 0.0s 0.2s, top 0.0s 0.2s);
+
+                            .c-item-01 {
+                                margin-bottom: 48px;
+                                font-weight: 600;
+                                font-size: 24px;
+                                line-height: 32px;
+                                letter-spacing: 0.02em;
+                                color: $color-darkblue-900;
+                            }
+
+                            .c-item-02 {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                object-position: center;
+                            }
+                        }
+
+                        &.submenu_v2 {
+
+                            .ul-level-2 {
+                                display: block;
+
+
+                                > li {
+                                    //
+                                    // Other than first child level2 <li>
+                                    &:not(:first-child) {
+                                        margin-left: 0;
+                                        //
+                                        // Level 2 <li> link item
+                                        > a {
+                                        }
+                                    }
+
+                                    &:not(:last-child) {
+                                        margin-bottom: 12px;
+                                    }
+                                }
+                            }
+                        }
+
+                        &.hasSubmenu-v2 {
+                            &::after {
+                                content: '';
+                                visibility: hidden;
+                                position: fixed;
+                                z-index: 0;
+                                top: 81px;
+                                right: 0;
+                                left: 0;
+                                display: block;
+                                background-color: #FFF;
+                                box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+                                cursor: default;
+                                opacity: 0;
+                                box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.05);
+                                @include dynamicTransition(opacity 0.2s, visibility 0.0s 0.2s);
+                                border-top: 2px solid #0052C3;
+                            }
+
+                            > .ul-level-2 {
+                                padding-top: 20px;
+                                display: none;
+                            }
+                        }
+
+                        > a {
+                            > svg {
+                                transform: rotate(180deg);
+                                margin-left: 2px;
+                                width: 17px;
+                                height: 17px;
+
+                                > path {
+                                    fill: #777D96;
+                                }
+                            }
+                        }
+                    }
+                    //
+                    // Level 1 <li> with submenu is on hover state
+                    > li.hasSubmenu:hover {
+                        //
+                        // Level 1 <li> link item
+                        > a {
+                        }
+                        //
+                        // Level 2 <ul>
+                        .ul-level-2 {
+                            visibility: visible;
+                            opacity: 1;
+                            @include dynamicTransition(opacity 0.2s, visibility 0.0s);
+                        }
+                        //
+                        // Level 3 <ul>
+                        .ul-level-3 {
+                        }
+                        //
+                        // Submenu advertisement banner
+                        .submenu-ad {
+                            top: 125px;
+                            visibility: visible;
+                            opacity: 1;
+                            @include dynamicTransition(opacity 0.2s, visibility 0.0s, top 0.0s);
+                        }
+                        //
+                        // Submenu background layer
+                        &::after {
+                            background: rgba(255, 255, 255, 0.88);
+                            visibility: visible;
+                            opacity: 1;
+                            @include dynamicTransition(opacity 0.2s, visibility 0.0s);
+                            background: rgba(255, 255, 255, 0.88);
+                            height: 311px;
+                            backdrop-filter: blur(17px);
+                        }
+                    }
+
+                    > li.hasSubmenu-v2:hover {
+                        //
+                        // Level 1 <li> link item
+                        > a {
+                        }
+                        //
+                        // Level 2 <ul>
+                        .ul-level-2 {
+                            display: flex;
+                            visibility: visible;
+                            opacity: 1;
+                            @include dynamicTransition(opacity 0.2s, visibility 0.0s);
+                            width: 162px;
+                            height: 174px;
+                            position: absolute;
+                            top: 78px;
+                            left: auto !important;
+                            padding-left: 19px;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+
+                            > li {
+                                border-bottom: none;
+                                padding: 0;
+
+                                &:not(:last-child) {
+                                    margin-bottom: 16px;
+                                }
+
+                                > a {
+                                    font-weight: 600;
+                                    font-size: 0.88235294117em;
+                                    line-height: 18px;
+                                    color: #777D96;
+
+                                    &:hover {
+                                        color: #0052C3;
+                                        transition: color 0.3s;
+                                    }
+                                }
+                            }
+                        }
+                        //
+                        // Level 3 <ul>
+                        .ul-level-3 {
+                        }
+                        //
+                        // Submenu advertisement banner
+                        .submenu-ad {
+                            top: 125px;
+                            visibility: visible;
+                            opacity: 1;
+                            @include dynamicTransition(opacity 0.2s, visibility 0.0s, top 0.0s);
+                        }
+                        //
+                        // Submenu background layer
+                        &::after {
+                            visibility: visible;
+                            opacity: 1;
+                            @include dynamicTransition(opacity 0.2s, visibility 0.0s);
+                            background: #FFF;
+                            width: 162px;
+                            height: 174px;
+                            position: absolute;
+                            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.0799825);
+                            top: 78px;
+                            border-radius: 0 0 10px 10px;
+                        }
+
+                        &::before {
+                            width: 162px;
+                            z-index: 1;
+                            left: 0;
+                            bottom: -2px;
+                        }
+                    }
+                }
+                //
+                // Level 2 <ul>
+                .ul-level-2 {
+                    position: fixed;
+                    z-index: 1;
+                    top: 81px;
+                    padding-top: 40px;
+                    left: auto;
+                    right: auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    visibility: hidden;
+                    opacity: 0;
+                    @include dynamicTransition(opacity 0.2s, visibility 0.0s 0.2s);
+                    width: 1022px;
+                    left: calc(50% - #{$c-wrapper-md-width/2 - 90}px);
+                    //
+                    // Level 2 <li>
+                    > li {
+                        display: flex;
+                        flex-direction: column;
+                        padding-bottom: 22px;
+                        width: 100%;
+
+                        &.mobile-parent-menu-item {
+                            display: none;
+                        }
+                        //
+                        // Level 2 <li> link item
+                        & > a {
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.02em;
+                            color: #FFFFFF;
+                            opacity: 1 !important;
+                            @include dynamicTransition(transform 0.3s,font-weight 0.3s);
+
+                            &:hover {
+                                font-weight: 600 !important;
+                                color: #0052C3;
+                            }
+                        }
+                        //
+                        // First child level 2 <li>
+                        &:first-child {
+                            padding-bottom: 14px;
+                            //
+                            // First child level 2 <li> link item
+                            & > a {
+                                > svg {
+                                }
+
+                                &:hover {
+                                }
+                            }
+                        }
+                        //
+                        // Other than first child level2 <li>
+                        &:not(:first-child) {
+                            //
+                            // Level 2 <li> link item
+                            > a {
+                            }
+                        }
+
+                        &:not(:last-child) {
+                            border-bottom: 1px solid #ECECEC;
+                        }
+                    }
+
+                    > .c-container-01 {
+                        position: absolute;
+                        bottom: -48px;
+                        left: calc(#{$c-wrapper-md-width/2 - 90}px - 50vw);
+                        width: 100vw;
+                        background: #003B8D;
+                        opacity: 0.89;
+                        display: flex;
+                        flex-direction: initial;
+                        padding-bottom: 0;
+                        height: 48px;
+
+                        .c-item-01 {
+                            padding-left: calc(50% - #{$c-wrapper-md-width/2 - 90}px);
+                            padding-right: 29px;
+                            background: #0052C3;
+                            opacity: 0.89;
+                            font-weight: 400;
+                            font-size: 1.29411764706em;
+                            line-height: 26px;
+                            color: #FCFCFC;
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        .c-item-02 {
+                            padding-left: 11px;
+                            display: flex;
+                            align-items: center;
+
+                            .c-unit {
+                                display: flex;
+                                align-items: center;
+
+                                &:not(:last-child) {
+                                    margin-right: 25px;
+                                }
+
+                                .c-unit-01 {
+                                    margin-right: 11px;
+                                    margin-top: 5px;
+                                }
+
+                                .c-unit-02 {
+                                    font-weight: 400;
+                                    font-size: 0.94117647058em;
+                                    line-height: 19px;
+                                    color: #EBF3FF;
+                                }
+                            }
+                        }
+                    }
+                }
+                //
+                // Level 3 <ul>
+                .ul-level-3 {
+                    margin-top: 16px;
+                    display: flex;
+                    //
+                    // Level 3 <li>
+                    > li {
+                        width: 25%;
+
+                        &.mobile-parent-menu-item {
+                            display: none;
+                        }
+                        //
+                        // Level 3 <li> link item
+                        & > a {
+                            display: flex;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 24px;
+                            letter-spacing: 0.02em;
+                            @include dynamicTransition(transform 0.3s,font-weight 0.3s);
+                            display: flex;
+                            align-items: center;
+
+                            .c-item-01 {
+                                transition: background-color 0.3s;
+                            }
+
+                            .c-item-01 {
+                                transition: color 0.3s;
+                            }
+
+                            &:hover {
+                                .c-item-01 {
+                                    background-color: #0052C3;
+                                    transition: background-color 0.3s;
+
+                                    > svg {
+                                        &:first-child {
+                                            display: none;
+                                        }
+
+                                        &:last-child {
+                                            display: block;
+                                        }
+                                    }
+                                }
+
+
+                                .c-item-02 {
+                                    transition: color 0.3s;
+                                    color: #0052C3;
+                                }
+                            }
+
+                            > .c-item-01 {
+                                width: 54px;
+                                height: 45px;
+                                background-color: #EEF5FF;
+                                border-radius: 5px;
+                                margin-right: 16px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                > svg {
+                                    &:first-child {
+                                        display: block;
+                                    }
+
+                                    &:last-child {
+                                        display: none;
+                                    }
+                                }
+                            }
+
+                            > .c-item-02 {
+                                font-size: 1em;
+                                font-weight: 400;
+                                line-height: 20px;
+                                color: #777D96;
+                            }
+
+                            &:not(:last-child) {
+                                margin-right: 26px;
+                            }
+                        }
+                        //
+                        // Other than last child level3 <li>
+                        &:not(:last-child) {
+                            //
+                            // Level 3 <li> link item
+                            > a {
+                                &::after {
+                                }
+
+                                &:hover {
+                                }
+                            }
+                        }
+                        //
+                        // Last child level 3 <li>
+                        &:last-child {
+                            //
+                            // Level 3 <li> link item
+                            > a {
+                                &:hover {
+                                }
+                            }
+                        }
+
+                        &:first-child {
+                        }
+                    }
+
+                    &:last-child {
+                        margin-top: 9px;
+                    }
+                }
+                //
+                // Submenu advertisement banner
+                .submenu-ad {
+                }
+            }
+        }
+    }
 }
 
 

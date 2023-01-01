@@ -1,0 +1,218 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-07 {
+        padding: 40px 0 206px 0;
+        background: #F7F2DE;
+
+        > .c-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .c-container-01 {
+                position: sticky;
+                top: 0;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 39px;
+                    width: 369px;
+                    height: 208.58px;
+                    text-transform: uppercase;
+                }
+
+                > .c-item-02 {
+                    font-weight: 900;
+                    font-size: 37px;
+                    line-height: 45px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+            }
+
+            .c-container-02 {
+                width: 100vw;
+                margin-top: 33px;
+
+                .c-item-01 {
+                    height: 520px;
+                    margin-bottom: 44px;
+                    margin-right: 31%;
+
+                    > .c-unit-01 {
+                    }
+                }
+
+                .c-item-02 {
+                    height: 520px;
+                    margin-bottom: 108px;
+                    margin-left: 20%;
+
+                    .c-unit-01 {
+                    }
+
+                    .c-unit-02 {
+                        display: none;
+                    }
+
+                    .c-unit-03 {
+                        position: absolute;
+                        bottom: -45%;
+                        left: -36%;
+                    }
+                }
+
+                .c-item-03 {
+                    height: 478.99px;
+                    margin-bottom: 156px;
+                    margin-right: 31%;
+
+                    .c-unit-01 {
+                    }
+
+                    .c-unit-02 {
+                        display: none;
+                    }
+
+                    .c-unit-03 {
+                        position: absolute;
+                        right: -39%;
+                        bottom: -28%;
+
+                        > svg {
+                            height: 298px;
+                        }
+                    }
+                }
+
+                .c-item-04 {
+                    height: 520px;
+                    margin-left: 20%;
+
+                    .c-unit-02 {
+                        position: absolute;
+                        bottom: -105px;
+                        left: -71px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-07 {
+        padding: 207px 0 60px 0;
+        background: #F7F2DE;
+
+        > .c-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 1600px;
+
+            .c-container-01 {
+                position: sticky;
+                top: 0;
+
+                > .c-item-01 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 39px;
+                }
+
+                > .c-item-02 {
+                    width: 645px;
+                    font-weight: 900;
+                    font-size: 58px;
+                    line-height: 70px;
+                    text-align: center;
+                    color: #000000;
+                    text-transform: uppercase;
+                }
+            }
+
+            .c-container-02 {
+                width: 100%;
+
+                .c-item-01 {
+                    width: 520px;
+                    height: 520px;
+                }
+
+                .c-item-02 {
+                    width: 520px;
+                    height: 737px;
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 100%;
+                    margin-top: -221px;
+
+                    .c-unit-01 {
+                        width: 520px;
+                        height: 737px;
+                    }
+
+                    .c-unit-02 {
+                        position: absolute;
+                        right: 367px;
+                        bottom: -205px;
+                    }
+
+                    .c-unit-03 {
+                        display: none;
+                    }
+                }
+
+                .c-item-03 {
+                    width: 520px;
+                    height: 520px;
+                    margin: -350px 0 70px 251px;
+
+                    .c-unit-01 {
+                        width: 520px;
+                        height: 520px;
+                    }
+
+                    .c-unit-02 {
+                        position: absolute;
+                        left: -161px;
+                        bottom: -263px;
+                    }
+
+                    .c-unit-03 {
+                        display: none;
+                    }
+                }
+
+                .c-item-04 {
+                    margin-right: 111px;
+                    display: flex;
+                    justify-content: flex-end;
+
+                    .c-unit-01 {
+                        width: 666px;
+                        height: 520px;
+                    }
+
+                    .c-unit-02 {
+                        position: absolute;
+                        right: -174px;
+                        bottom: 3px;
+                    }
+                }
+            }
+        }
+    }
+}

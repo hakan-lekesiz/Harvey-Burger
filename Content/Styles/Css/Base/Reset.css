@@ -29,7 +29,6 @@ main, header, aside, img {
 
 main {
   min-height: 100vh;
-  padding-top: 80px;
 }
 
 input:not([type=checkbox]):not([type=radio]), textarea, select {
@@ -61,7 +60,6 @@ hr {
 @media all and (max-width: 767px) {
   main {
     min-height: 100vh;
-    padding-top: 67px;
   }
 }
 
