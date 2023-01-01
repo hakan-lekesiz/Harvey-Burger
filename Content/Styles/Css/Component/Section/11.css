@@ -434,7 +434,7 @@
   }
 
   .contact.f-scrolled-03 .comp-footer-01 {
-    display: block;
+    display: none;
     background: #111;
   }
   .contact.f-scrolled-03 .comp-header-01 {
@@ -445,7 +445,6 @@
 @media all and (min-width: 768px) {
   .section-11 {
     padding: 121px 0 0 0;
-    height: 100vh;
   }
   .section-11 .c-wrapper {
     display: flex;
@@ -877,6 +876,11 @@
   }
   .section-11 .c-wrapper .val-A .parenterror label > span {
     color: #A32F2A;
+  }
+
+  .contact.f-scrolled-03 .comp-footer-01 {
+    display: block;
+    background: #E60000;
   }
 }
 

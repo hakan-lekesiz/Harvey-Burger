@@ -108,12 +108,15 @@
   #hamburger-menu-wrapper .ul-level-1 > li > a, #hamburger-menu-wrapper .ul-level-2 > li > a, #hamburger-menu-wrapper .ul-level-3 > li > a {
     display: flex;
     align-items: center;
-    min-height: 52px;
+    min-height: 70px;
     padding-right: 56px;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
+  }
+  #hamburger-menu-wrapper .ul-level-1 > li > a.v2, #hamburger-menu-wrapper .ul-level-2 > li > a.v2, #hamburger-menu-wrapper .ul-level-3 > li > a.v2 {
+    min-height: 33px;
   }
   #hamburger-menu-wrapper .ul-level-1 > li > a > svg, #hamburger-menu-wrapper .ul-level-2 > li > a > svg, #hamburger-menu-wrapper .ul-level-3 > li > a > svg {
     margin-right: 12px;
@@ -646,7 +649,15 @@
     display: none;
   }
   #menu-primary .ul-level-1 > li.menu-li-second-item .menu-hover-svg {
-    display: none;
+    position: absolute;
+    top: -28px;
+    background: linear-gradient(180deg, rgba(230, 0, 0, 0) 0%, #E60000 100%);
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: calc(100% + 46px);
+    padding-bottom: 13px;
   }
   #menu-primary .ul-level-1 > li.where-we-container {
     display: none;

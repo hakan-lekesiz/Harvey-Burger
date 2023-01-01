@@ -539,7 +539,7 @@
     .contact {
         &.f-scrolled-03 {
             .comp-footer-01 {
-                display: block;
+                display: none;
                 background: #111;
             }
 
@@ -554,8 +554,6 @@
 @media all and (min-width: #{$mq-sm1 + "px"}) {
     .section-11 {
         padding: 121px 0 0 0;
-        height: 100vh;
-
 
         .c-wrapper {
             display: flex;
@@ -1089,5 +1087,11 @@
     }
 
     .contact {
+        &.f-scrolled-03 {
+            .comp-footer-01 {
+                display: block;
+                background: #E60000;
+            }
+        }
     }
 }
