@@ -1610,7 +1610,7 @@ picture {
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-09 {
-    padding: 205px 0 121px 0;
+    padding: 205px 0 150px 0;
   }
   .section-09 > .c-item {
     position: absolute;
