@@ -60,12 +60,7 @@
     display: flex;
     align-items: center;
     animation: marquee 25s linear infinite;
-    transform: translateX(100%);
-  }
-  @keyframes marquee {
-    to {
-      transform: translateX(-100%);
-    }
+    transform: translateX(calc(100vw - 140px));
   }
 }
 /* Common sm, md, lg */
@@ -128,14 +123,14 @@
   }
   .comp-footer-01 > .c-wrapper > .c-container-01 > #scroll-animation .scroll-animation_area .scroll-animation_area__ > .c-unit-01 > .scroll-01 {
     animation: marquee 35s linear infinite;
-    transform: translateX(100%);
+    transform: translateX(calc(100vw - 140px));
     display: flex;
     align-items: center;
   }
-  @keyframes marquee {
-    to {
-      transform: translateX(-100%);
-    }
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-100%);
   }
 }
 
