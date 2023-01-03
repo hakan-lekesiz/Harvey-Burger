@@ -83,9 +83,10 @@
 @media all and (min-width: 768px) {
   .section-01 {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     height: 100vh;
+    padding-bottom: 121px;
   }
   .section-01 > .c-contain {
     position: absolute;

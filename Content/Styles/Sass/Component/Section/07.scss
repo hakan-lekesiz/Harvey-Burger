@@ -136,7 +136,7 @@
 
             .c-container-01 {
                 position: sticky;
-                top: 0;
+                top: 145px;
 
                 > .c-item-01 {
                     display: flex;
@@ -195,6 +195,7 @@
                     flex-direction: column;
                     align-items: end;
                     justify-content: flex-end;
+                    margin-top: 293px;
 
                     .c-item-02 {
                         width: 520px;
@@ -231,6 +232,14 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .section-07{
+        > .c-wrapper{
+            width:704px;
         }
     }
 }

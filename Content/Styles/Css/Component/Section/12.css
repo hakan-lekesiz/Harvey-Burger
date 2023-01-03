@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 1;
   }
   .section-12 .c-container-01 > .c-item-01 {
     margin-bottom: 13px;
@@ -17,8 +18,14 @@
     width: 294.09px;
     height: 69px;
   }
+  .section-12 .c-container-01 > .c-item-01 .c-unit-01 {
+    display: none;
+  }
+  .section-12 .c-container-01 > .c-item-01 .c-unit-02 {
+    display: block;
+  }
   .section-12 .c-container-01 > .c-item-02 {
-    margin-bottom: 11px;
+    margin-bottom: 6px;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -26,17 +33,15 @@
     color: #FFFFFF;
   }
   .section-12 .c-container-01 > .c-item-03 {
-    margin-bottom: 22px;
+    margin-bottom: 40px;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 15px;
+    line-height: 18px;
     text-align: center;
-    color: #FFADAD;
+    color: #F7F2DE;
   }
   .section-12 .c-container-01 > .c-item-04 {
     margin-bottom: 20px;
-  }
-  .section-12 .c-container-01 > .c-item-04 > a {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,24 +54,13 @@
     line-height: 18px;
     color: #E60000;
   }
-  .section-12 .c-container-01 > .c-item-04 > a > svg {
+  .section-12 .c-container-01 > .c-item-04 > svg {
     margin-left: 28px;
   }
-  .section-12 .c-container-02 {
-    height: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .section-12 .c-container-02 .c-item-01 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-  }
-  .section-12 .c-container-02 .c-item-02 {
+  .section-12 > .c-item {
     position: absolute;
     top: 0;
+    left: 0;
   }
 }
 /* Common sm, md, lg */
@@ -82,9 +76,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 1;
   }
   .section-12 .c-container-01 > .c-item-01 {
     margin-bottom: 13px;
+  }
+  .section-12 .c-container-01 > .c-item-01 .c-unit-01 {
+    display: block;
+  }
+  .section-12 .c-container-01 > .c-item-01 .c-unit-02 {
+    display: none;
   }
   .section-12 .c-container-01 > .c-item-02 {
     margin-bottom: 13px;
