@@ -332,6 +332,7 @@
     left: -50px;
     top: 32px;
     display: none;
+    z-index: 11111;
   }
   .comp-header-01 > .c-wrapper #activity-container > .menu-activities > .c-item-01-01 > .c-unit-01 {
     font-weight: 600;

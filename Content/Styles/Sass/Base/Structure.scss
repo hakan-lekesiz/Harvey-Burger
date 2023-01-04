@@ -147,6 +147,10 @@ picture {
 @media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
     body {
         zoom: 0.57;
+
+        .section-01 {
+            height: 175vh;
+        }
     }
 
     body {
@@ -313,6 +317,32 @@ picture {
                     }
                 }
             }
+
+            #activity-container {
+                > .menu-activities {
+                    #menu-language {
+
+                        > .c-unit-01 {
+                            display: block;
+                        }
+
+                        > .c-unit-02 {
+                            display: none;
+                        }
+                    }
+
+                    .c-item-02 {
+
+                        .c-unit-A {
+                            display: block;
+                        }
+
+                        .c-unit-B {
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
 
         &.f-scrolled-02 {
@@ -351,6 +381,24 @@ picture {
 
                             > .c-unit-01-B {
                                 display: none;
+                            }
+                        }
+                    }
+                }
+
+                #activity-container {
+                    > .menu-activities {
+
+
+                        .c-item-02 {
+
+
+                            .c-unit-A {
+                                display: none;
+                            }
+
+                            .c-unit-B {
+                                display: block;
                             }
                         }
                     }
@@ -396,6 +444,14 @@ picture {
         &.f-scrolled-04 {
             .comp-footer-01 {
                 background: #FFF;
+
+                .scroll-animation_area__ {
+                    > .c-unit-01 {
+                        .scroll-01 {
+                            color: #000000;
+                        }
+                    }
+                }
             }
 
             .comp-header-01 {
@@ -424,6 +480,28 @@ picture {
                         }
                     }
                 }
+
+                #activity-container {
+                    > .menu-activities {
+                        #menu-language {
+                            color: #E60000;
+
+                            > .c-unit-01 {
+                                display: none;
+                            }
+
+                            > .c-unit-02 {
+                                display: block;
+                            }
+                        }
+
+                        .c-item-02 {
+                            .c-unit-01 {
+                                color: #E60000;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -433,6 +511,10 @@ picture {
 @media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
     body {
         zoom: 0.861;
+
+        .section-01 {
+            height: 117vh;
+        }
     }
 
     .c-wrapper {

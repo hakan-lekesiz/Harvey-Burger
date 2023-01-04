@@ -39,7 +39,7 @@
     color: #000000;
   }
   .section-11 .c-wrapper .column-01 .c-container-01 .c-item-02 .c-unit-03 {
-    margin-bottom: 26px;
+    margin-bottom: 26px !important;
     margin-right: 28px;
     font-weight: 500;
     font-size: 15px;
@@ -489,7 +489,7 @@
     color: #000000;
   }
   .section-11 .c-wrapper .column-01 .c-container-01 .c-item-02 .c-unit-03 {
-    margin-bottom: 26px;
+    margin-bottom: 26px !important;
     width: 466px;
     font-weight: 500;
     font-size: 18px;
@@ -792,7 +792,7 @@
     display: none;
     position: absolute;
     left: 4px;
-    top: calc(50% - 19px);
+    top: calc(50% - 20px);
   }
   .section-11 .c-wrapper .column-02 .c-container-01 .form-area > #form-container1 > .c-item-022 .c-item-02-E > label:before {
     width: 25px;

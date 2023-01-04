@@ -117,6 +117,9 @@ picture {
   body {
     zoom: 0.57;
   }
+  body .section-01 {
+    height: 175vh;
+  }
 
   body .comp-footer-01 {
     display: block;
@@ -228,6 +231,18 @@ picture {
   body .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
     display: none;
   }
+  body .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-01 {
+    display: block;
+  }
+  body .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-02 {
+    display: none;
+  }
+  body .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-A {
+    display: block;
+  }
+  body .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-B {
+    display: none;
+  }
   body.f-scrolled-02 .comp-footer-01 {
     background: #E60000;
     display: block;
@@ -253,6 +268,12 @@ picture {
   body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
     display: none;
   }
+  body.f-scrolled-02 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-A {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-B {
+    display: block;
+  }
   body.f-scrolled-03 .comp-footer-01 {
     display: block;
     background: #111;
@@ -275,6 +296,9 @@ picture {
   body.f-scrolled-04 .comp-footer-01 {
     background: #FFF;
   }
+  body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
+    color: #000000;
+  }
   body.f-scrolled-04 .comp-header-01 {
     background: #FFF;
   }
@@ -290,11 +314,26 @@ picture {
   body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
     display: block;
   }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language {
+    color: #E60000;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-01 {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-02 {
+    display: block;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-01 {
+    color: #E60000;
+  }
 }
 /* MD */
 @media all and (min-width: 1250px) and (max-width: 1679px) {
   body {
     zoom: 0.861;
+  }
+  body .section-01 {
+    height: 117vh;
   }
 
   .c-wrapper {
