@@ -537,8 +537,16 @@
     .contact {
         &.f-scrolled-03 {
             .comp-footer-01 {
-                display: none;
-                background: #111;
+                background: #E60000;
+                display: block;
+
+                .c-unit-01-01 {
+                    display: block;
+                }
+
+                .c-unit-01-02 {
+                    display: none;
+                }
             }
 
             .comp-header-01 {
