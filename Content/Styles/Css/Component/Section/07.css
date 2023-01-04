@@ -94,6 +94,7 @@
   .section-07 {
     padding: 207px 0 120px 0;
     background: #F7F2DE;
+    overflow: hidden;
   }
   .section-07 > .c-wrapper {
     display: flex;
