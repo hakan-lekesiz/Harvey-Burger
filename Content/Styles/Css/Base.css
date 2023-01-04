@@ -439,6 +439,9 @@ picture {
   body .section-01 {
     height: 175vh;
   }
+  body #homePageSliderArea {
+    width: 173vw;
+  }
 
   body .comp-footer-01 {
     display: block;
