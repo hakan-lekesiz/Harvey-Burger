@@ -61,6 +61,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
 
         > .c-wrapper {
             display: flex;
@@ -99,7 +100,8 @@
             }
 
             .c-container-02 {
-                width: calc(100% + 122px);
+              
+                width: 100vw;
 
                 .c-item-01 {
                     .c-unit-01 {

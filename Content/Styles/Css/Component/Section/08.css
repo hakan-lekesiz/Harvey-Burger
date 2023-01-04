@@ -44,6 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
   }
   .section-08 > .c-wrapper {
     display: flex;
@@ -77,7 +78,7 @@
     color: #FFFFFF;
   }
   .section-08 > .c-wrapper .c-container-02 {
-    width: calc(100% + 122px);
+    width: 100vw;
   }
   .section-08 > .c-wrapper .c-container-02 .c-item-01 .c-unit-01 {
     width: 288px;

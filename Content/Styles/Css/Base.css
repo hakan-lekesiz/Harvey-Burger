@@ -301,6 +301,124 @@ picture {
 }
 
 /* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  body .comp-footer-01 {
+    display: block;
+  }
+  body .comp-footer-01 .c-unit-01-01 {
+    display: block;
+  }
+  body .comp-footer-01 .c-unit-01-02 {
+    display: none;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
+  body .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-01 {
+    display: block;
+  }
+  body .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-02 {
+    display: none;
+  }
+  body .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-A {
+    display: block;
+  }
+  body .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-B {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-footer-01 {
+    background: #E60000;
+    display: block;
+  }
+  body.f-scrolled-02 .comp-footer-01 .c-unit-01-01 {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-footer-01 .c-unit-01-02 {
+    display: block;
+  }
+  body.f-scrolled-02 .comp-header-01 {
+    background: #E60000;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-A {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-B {
+    display: block;
+  }
+  body.f-scrolled-03 .comp-footer-01 {
+    display: block;
+    background: #111;
+  }
+  body.f-scrolled-03 .comp-header-01 {
+    background: #111;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-footer-01 {
+    background: #FFF;
+  }
+  body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
+    color: #000000;
+  }
+  body.f-scrolled-04 .comp-header-01 {
+    background: #FFF;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: block;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: block;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language {
+    color: #E60000;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-01 {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-02 {
+    display: block;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-01 {
+    color: #E60000;
+  }
+}
 /* XS1 */
 @media all and (max-width: 419px) {
   .c-wrapper {
@@ -343,6 +461,18 @@ picture {
   body .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
     display: none;
   }
+  body .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-01 {
+    display: block;
+  }
+  body .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-02 {
+    display: none;
+  }
+  body .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-A {
+    display: block;
+  }
+  body .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-B {
+    display: none;
+  }
   body.f-scrolled-02 .comp-footer-01 {
     background: #E60000;
     display: block;
@@ -356,6 +486,24 @@ picture {
   body.f-scrolled-02 .comp-header-01 {
     background: #E60000;
   }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-02 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-A {
+    display: none;
+  }
+  body.f-scrolled-02 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-B {
+    display: block;
+  }
   body.f-scrolled-03 .comp-footer-01 {
     display: block;
     background: #111;
@@ -363,12 +511,50 @@ picture {
   body.f-scrolled-03 .comp-header-01 {
     background: #111;
   }
-  body.f-scrolled-04 .comp-footer-01 {
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
     display: none;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: block;
+  }
+  body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-footer-01 {
     background: #FFF;
+  }
+  body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
+    color: #000000;
   }
   body.f-scrolled-04 .comp-header-01 {
     background: #FFF;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-B {
+    display: block;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-A {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
+    display: block;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language {
+    color: #E60000;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-01 {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities #menu-language > .c-unit-02 {
+    display: block;
+  }
+  body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-01 {
+    color: #E60000;
   }
 
   .overlay-wrapper-style {
@@ -1818,6 +2004,7 @@ picture {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
   }
   .section-08 > .c-wrapper {
     display: flex;
@@ -1851,7 +2038,7 @@ picture {
     color: #FFFFFF;
   }
   .section-08 > .c-wrapper .c-container-02 {
-    width: calc(100% + 122px);
+    width: 100vw;
   }
   .section-08 > .c-wrapper .c-container-02 .c-item-01 .c-unit-01 {
     width: 288px;
@@ -3543,6 +3730,7 @@ picture {
     align-items: center;
     justify-content: center;
     height: 658px;
+    padding-bottom: 121px;
   }
   .section-12 .c-container-01 {
     display: flex;
@@ -6279,28 +6467,38 @@ body.transitPage #page-wrapper {
 /* Common sm, md, lg */
 /* Primary font-face */
 @font-face {
-  font-family: "TT Commons";
-  src: url("/Content/Files/Fonts/TT/TT_Commons_Regular.ttf");
+  font-family: "Inter";
+  src: url("/Content/Files/Fonts/Inter/Inter-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
-  font-family: "TT Commons";
-  src: url("/Content/Files/Fonts/TT/TT_Commons_Medium.ttf");
+  font-family: "Inter";
+  src: url("/Content/Files/Fonts/Inter/Inter-Medium.ttf");
   font-weight: 500;
 }
 @font-face {
-  font-family: "TT Commons";
-  src: url("/Content/Files/Fonts/TT/TT_Commons_SemiBold.ttf");
+  font-family: "Inter";
+  src: url("/Content/Files/Fonts/Inter/Inter-SemiBold.ttf");
   font-weight: 600;
 }
 @font-face {
-  font-family: "TT Commons";
-  src: url("/Content/Files/Fonts/TT/TT_Commons_Bold.ttf");
+  font-family: "Inter";
+  src: url("/Content/Files/Fonts/Inter/Inter-Bold.ttf");
   font-weight: 700;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/Content/Files/Fonts/Inter/Inter-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/Content/Files/Fonts/Inter/Inter-Black.ttf");
+  font-weight: 900;
 }
 /* Base font syles */
 body {
-  font-family: "TT Commons";
+  font-family: "Inter";
   font-size: 15px;
   font-style: normal;
 }

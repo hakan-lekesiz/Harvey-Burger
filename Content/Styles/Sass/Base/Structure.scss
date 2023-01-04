@@ -126,6 +126,232 @@ picture {
 
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    body {
+        .comp-footer-01 {
+            display: block;
+
+            .c-unit-01-01 {
+                display: block;
+            }
+
+            .c-unit-01-02 {
+                display: none;
+            }
+        }
+
+        .comp-header-01 {
+
+            #site-logo {
+                > .c-item-01 {
+                    > .c-unit-01 {
+                        > .c-unit-01-A {
+                            display: block;
+                        }
+
+                        > .c-unit-01-B {
+                            display: none;
+                        }
+                    }
+
+                    > .c-unit-02 {
+                        > .c-unit-01-A {
+                            display: block;
+                        }
+
+                        > .c-unit-01-B {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            #activity-container {
+                > .menu-activities {
+                    #menu-language {
+
+                        > .c-unit-01 {
+                            display: block;
+                        }
+
+                        > .c-unit-02 {
+                            display: none;
+                        }
+                    }
+
+                    .c-item-02 {
+
+                        .c-unit-A {
+                            display: block;
+                        }
+
+                        .c-unit-B {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.f-scrolled-02 {
+            .comp-footer-01 {
+                background: #E60000;
+                display: block;
+
+                .c-unit-01-01 {
+                    display: none;
+                }
+
+                .c-unit-01-02 {
+                    display: block;
+                }
+            }
+
+            .comp-header-01 {
+                background: #E60000;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                #activity-container {
+                    > .menu-activities {
+
+
+                        .c-item-02 {
+
+
+                            .c-unit-A {
+                                display: none;
+                            }
+
+                            .c-unit-B {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.f-scrolled-03 {
+            .comp-footer-01 {
+                display: block;
+                background: #111;
+            }
+
+            .comp-header-01 {
+                background: #111;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.f-scrolled-04 {
+            .comp-footer-01 {
+                background: #FFF;
+
+                .scroll-animation_area__ {
+                    > .c-unit-01 {
+                        .scroll-01 {
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+
+            .comp-header-01 {
+                background: #FFF;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: none;
+                            }
+
+                            > .c-unit-01-B {
+                                display: block;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: none;
+                            }
+
+                            > .c-unit-01-B {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                #activity-container {
+                    > .menu-activities {
+                        #menu-language {
+                            color: #E60000;
+
+                            > .c-unit-01 {
+                                display: none;
+                            }
+
+                            > .c-unit-02 {
+                                display: block;
+                            }
+                        }
+
+                        .c-item-02 {
+                            .c-unit-01 {
+                                color: #E60000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* XS1 */
@@ -191,6 +417,32 @@ picture {
                     }
                 }
             }
+
+            #activity-container {
+                > .menu-activities {
+                    #menu-language {
+
+                        > .c-unit-01 {
+                            display: block;
+                        }
+
+                        > .c-unit-02 {
+                            display: none;
+                        }
+                    }
+
+                    .c-item-02 {
+
+                        .c-unit-A {
+                            display: block;
+                        }
+
+                        .c-unit-B {
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
 
         &.f-scrolled-02 {
@@ -209,6 +461,48 @@ picture {
 
             .comp-header-01 {
                 background: #E60000;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                #activity-container {
+                    > .menu-activities {
+
+
+                        .c-item-02 {
+
+
+                            .c-unit-A {
+                                display: none;
+                            }
+
+                            .c-unit-B {
+                                display: block;
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -220,17 +514,94 @@ picture {
 
             .comp-header-01 {
                 background: #111;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: block;
+                            }
+
+                            > .c-unit-01-B {
+                                display: none;
+                            }
+                        }
+                    }
+                }
             }
         }
 
         &.f-scrolled-04 {
             .comp-footer-01 {
-                display: none;
                 background: #FFF;
+
+                .scroll-animation_area__ {
+                    > .c-unit-01 {
+                        .scroll-01 {
+                            color: #000000;
+                        }
+                    }
+                }
             }
 
             .comp-header-01 {
                 background: #FFF;
+
+                #site-logo {
+                    > .c-item-01 {
+                        > .c-unit-01 {
+                            > .c-unit-01-A {
+                                display: none;
+                            }
+
+                            > .c-unit-01-B {
+                                display: block;
+                            }
+                        }
+
+                        > .c-unit-02 {
+                            > .c-unit-01-A {
+                                display: none;
+                            }
+
+                            > .c-unit-01-B {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                #activity-container {
+                    > .menu-activities {
+                        #menu-language {
+                            color: #E60000;
+
+                            > .c-unit-01 {
+                                display: none;
+                            }
+
+                            > .c-unit-02 {
+                                display: block;
+                            }
+                        }
+
+                        .c-item-02 {
+                            .c-unit-01 {
+                                color: #E60000;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

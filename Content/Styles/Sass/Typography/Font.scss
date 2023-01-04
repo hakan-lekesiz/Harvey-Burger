@@ -6,36 +6,44 @@
 
 
 @font-face {
-    font-family: 'TT Commons';
-    src: url('/Content/Files/Fonts/TT/TT_Commons_Regular.ttf');
+    font-family: 'Inter';
+    src: url('/Content/Files/Fonts/Inter/Inter-Regular.ttf');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'TT Commons';
-    src: url('/Content/Files/Fonts/TT/TT_Commons_Medium.ttf');
+    font-family: 'Inter';
+    src: url('/Content/Files/Fonts/Inter/Inter-Medium.ttf');
     font-weight: 500;
 }
 
 @font-face {
-    font-family: 'TT Commons';
-    src: url('/Content/Files/Fonts/TT/TT_Commons_SemiBold.ttf');
+    font-family: 'Inter';
+    src: url('/Content/Files/Fonts/Inter/Inter-SemiBold.ttf');
     font-weight: 600;
 }
 
 @font-face {
-    font-family: 'TT Commons';
-    src: url('/Content/Files/Fonts/TT/TT_Commons_Bold.ttf');
+    font-family: 'Inter';
+    src: url('/Content/Files/Fonts/Inter/Inter-Bold.ttf');
     font-weight: 700;
 }
-  
-
+@font-face {
+    font-family: 'Inter';
+    src: url('/Content/Files/Fonts/Inter/Inter-ExtraBold.ttf');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/Content/Files/Fonts/Inter/Inter-Black.ttf');
+    font-weight: 900;
+}
 /* Base font syles */
 
 body {
-    font-family: 'TT Commons';
+    font-family: 'Inter';
     font-size: 15px;
-    font-style:normal;
+    font-style: normal;
 }
 
 
