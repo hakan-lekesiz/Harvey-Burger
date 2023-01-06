@@ -165,7 +165,6 @@
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: calc(100% + 82px);
     margin-left: -32px;
     background: #000000;
     border-radius: 4px;
@@ -341,7 +340,7 @@
     display: none;
     position: absolute;
     left: 4px;
-    top: calc(50% - 50px);
+    top: 9px;
   }
   .section-11 .c-wrapper .column-02 .c-container-01 .form-area > #form-container1 > .c-item-022 .c-item-02-E > label:before {
     width: 25px;
@@ -471,6 +470,13 @@
     height: 587px;
     background: #1a1414;
     margin-bottom: 49px;
+    border-radius: 5px;
+  }
+  .section-11 .c-wrapper .column-01 .c-container-01 .c-item-01 > .map-container {
+    border-radius: 5px;
+  }
+  .section-11 .c-wrapper .column-01 .c-container-01 .c-item-01 > .map-container > .map {
+    border-radius: 5px;
   }
   .section-11 .c-wrapper .column-01 .c-container-01 .c-item-02 .c-unit-01 {
     font-weight: 400;
@@ -543,7 +549,7 @@
     flex-direction: column;
   }
   .section-11 .c-wrapper .column-02 .c-container-01 > .c-item-01 {
-    margin-bottom: 14px;
+    margin-bottom: 64px;
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -571,6 +577,7 @@
   .section-11 .c-wrapper .column-02 .c-container-01 > .c-item-02 .c-unit .c-unit-01 {
     width: 19px;
     margin-right: 13px;
+    margin-top: -10px;
   }
   .section-11 .c-wrapper .column-02 .c-container-01 > .c-item-02 .c-unit .c-unit-02 {
     height: 232px;

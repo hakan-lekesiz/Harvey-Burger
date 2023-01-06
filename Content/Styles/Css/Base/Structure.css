@@ -104,6 +104,12 @@ picture {
   body .comp-footer-01 {
     display: block;
   }
+  body .comp-footer-01 .c-container-01 .c-item-01 {
+    display: flex;
+  }
+  body .comp-footer-01 .c-container-01 .c-item-01-B {
+    display: none;
+  }
   body .comp-footer-01 .c-unit-01-01 {
     display: block;
   }
@@ -189,6 +195,12 @@ picture {
   }
   body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
     color: #000000;
+  }
+  body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01 {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01-B {
+    display: flex;
   }
   body.f-scrolled-04 .comp-header-01 {
     background: #FFF;
@@ -251,6 +263,12 @@ picture {
   body .comp-footer-01 .c-unit-01-02 {
     display: none;
   }
+  body .comp-footer-01 .c-container-01 .c-item-01 {
+    display: flex;
+  }
+  body .comp-footer-01 .c-container-01 .c-item-01-B {
+    display: none;
+  }
   body .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
     display: block;
   }
@@ -330,6 +348,12 @@ picture {
   }
   body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
     color: #000000;
+  }
+  body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01 {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01-B {
+    display: flex;
   }
   body.f-scrolled-04 .comp-header-01 {
     background: #FFF;
@@ -408,6 +432,12 @@ picture {
   body .comp-footer-01 .c-unit-01-02 {
     display: none;
   }
+  body .comp-footer-01 .c-container-01 .c-item-01 {
+    display: flex;
+  }
+  body .comp-footer-01 .c-container-01 .c-item-01-B {
+    display: none;
+  }
   body .comp-header-01 #site-logo > .c-item-01 > .c-unit-01 > .c-unit-01-A {
     display: block;
   }
@@ -487,6 +517,12 @@ picture {
   }
   body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
     color: #000000;
+  }
+  body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01 {
+    display: none;
+  }
+  body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01-B {
+    display: flex;
   }
   body.f-scrolled-04 .comp-header-01 {
     background: #FFF;

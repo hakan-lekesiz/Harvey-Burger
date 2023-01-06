@@ -130,6 +130,16 @@ picture {
         .comp-footer-01 {
             display: block;
 
+            .c-container-01 {
+                .c-item-01 {
+                    display: flex;
+                }
+
+                .c-item-01-B {
+                    display: none;
+                }
+            }
+
             .c-unit-01-01 {
                 display: block;
             }
@@ -297,6 +307,16 @@ picture {
                         .scroll-01 {
                             color: #000000;
                         }
+                    }
+                }
+
+                .c-container-01 {
+                    .c-item-01 {
+                        display: none;
+                    }
+
+                    .c-item-01-B {
+                        display: flex;
                     }
                 }
             }
@@ -394,6 +414,16 @@ picture {
             .c-unit-01-02 {
                 display: none;
             }
+
+            .c-container-01 {
+                .c-item-01 {
+                    display: flex;
+                }
+
+                .c-item-01-B {
+                    display: none;
+                }
+            }
         }
 
         .comp-header-01 {
@@ -554,6 +584,16 @@ picture {
                         .scroll-01 {
                             color: #000000;
                         }
+                    }
+                }
+
+                .c-container-01 {
+                    .c-item-01 {
+                        display: none;
+                    }
+
+                    .c-item-01-B {
+                        display: flex;
                     }
                 }
             }
@@ -665,6 +705,16 @@ picture {
             .c-unit-01-02 {
                 display: none;
             }
+
+            .c-container-01 {
+                .c-item-01 {
+                    display: flex;
+                }
+
+                .c-item-01-B {
+                    display: none;
+                }
+            }
         }
 
         .comp-header-01 {
@@ -825,6 +875,16 @@ picture {
                         .scroll-01 {
                             color: #000000;
                         }
+                    }
+                }
+
+                .c-container-01 {
+                    .c-item-01 {
+                        display: none;
+                    }
+
+                    .c-item-01-B {
+                        display: flex;
                     }
                 }
             }

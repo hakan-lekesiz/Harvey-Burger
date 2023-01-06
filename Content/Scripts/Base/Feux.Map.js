@@ -1,10 +1,9 @@
 ﻿
 Feux.Map = {
     Props: {
-        mainMapId: "map01",
+        mainMapId: "map",
         markerIcon: "/Content/Visuals/marker.svg",
         markerZoom: 15,
-
     },
 
     Elements: {

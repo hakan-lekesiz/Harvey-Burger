@@ -2,7 +2,29 @@
 @import "../Base/Colour.scss";
 
 
+.infoWindow {
+    > .info {
+        > h3 {
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
 
+        > p {
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+            color: #FFFFFF;
+        }
+    }
+
+    > .link {
+        width: 40px;
+        height: 40px;
+        display:none;
+    }
+}
 
 #ajax-overlay {
     display: flex;

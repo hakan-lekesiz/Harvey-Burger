@@ -23,6 +23,7 @@
                         order: 2;
                         height: 587px;
                         background: #1a1414;
+
                     }
 
                     .c-item-02 {
@@ -192,7 +193,6 @@
                                     justify-content: center;
                                     align-items: center;
                                     height: 50px;
-                                    width: calc(100% + 82px);
                                     margin-left: -32px;
                                     background: #000000;
                                     border-radius: 4px;
@@ -407,7 +407,7 @@
                                             display: none;
                                             position: absolute;
                                             left: 4px;
-                                            top: calc(50% - 50px);
+                                            top: 9px;
                                         }
 
                                         &:before {
@@ -582,6 +582,15 @@
                         height: 587px;
                         background: #1a1414;
                         margin-bottom: 49px;
+                        border-radius: 5px;
+
+                        > .map-container {
+                            border-radius: 5px;
+
+                            > .map {
+                                border-radius: 5px;
+                            }
+                        }
                     }
 
                     .c-item-02 {
@@ -669,7 +678,7 @@
                     flex-direction: column;
 
                     > .c-item-01 {
-                        margin-bottom: 14px;
+                        margin-bottom: 64px;
                         font-weight: 400;
                         font-size: 25px;
                         line-height: 30px;
@@ -700,6 +709,7 @@
                             .c-unit-01 {
                                 width: 19px;
                                 margin-right: 13px;
+                                margin-top: -10px;
                             }
 
                             .c-unit-02 {
