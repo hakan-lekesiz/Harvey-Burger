@@ -2284,7 +2284,7 @@ picture {
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 > .c-item-02-A {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 > .c-item-02-A > input {
     width: 100%;
@@ -2399,7 +2399,7 @@ picture {
     transition: color 0.3s;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-E > input:checked ~ label:before {
-    background-color: #0052C3;
+    background: #E60000;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-E > input:checked ~ label .c-unit-011 {
     display: block;
@@ -2421,7 +2421,7 @@ picture {
     display: none;
     position: absolute;
     left: 4px;
-    top: calc(50% - 12px);
+    top: 9px;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-E > label:before {
     width: 25px;
@@ -2575,7 +2575,7 @@ picture {
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 > .c-item-02-A {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 > .c-item-02-A > input {
     width: 100%;
