@@ -24,6 +24,7 @@
                 responsiveClass: true,
                 autoWidth: true,
                 nav: false,
+                autoplay: true,
                 responsive: {
                     0: {
                         items: 1,
