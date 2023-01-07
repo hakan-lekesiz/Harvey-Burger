@@ -81,78 +81,8 @@ Feux.MenuPrimary = {
             xs2: {},
             sm1: {
                 // type: Menu type (possible values: regular, hamburger)
-                type: 'hamburger',
-
-                // header: Based on header type position header (Especially fixed headers  not working under transformed containers)
-                header: 'fixed', // empty string or 'fixed' are the values.
-
-                // hideByOverlay: Overlay click hides menu if true.
-                hideByOverlay: false,
-
-                // hideByEscape: Esc key hit hides menu if true.
-                hideByEscape: false,
-
-                // account: Move user account menu into animation wrapper if true.
-                account: false,
-
-                // logo: Clone logo into animation wrapper if true.
-                logo: true,
-                logoContainerId: '',
-
-                // closeBtn: Clone hamburger close button into animation wrapper if true.
-                closeBtn: true,
-                closeBtnContainerId: '',
-
-                // backToMainScreen: Appends a header-button-link to direct user back to menu-screen-1
-                backToMainScreen: false,
-                backToMainScreenText: 'Menü',
-
-                // addScreenTitle: Appends current menu screen title.
-                addScreenTitle: false,
-
-                // language: Move language menu into animation wrapper if true.
-                language: false,
-
-                // socialmedia: Move social media menu into animation wrapper if true.
-                socialmedia: false,
-
-                // Appearance: First menu appearance animation arguments.
-                Appearance: {
-                    Animation: {
-                        type: 'push_l2r', // values: fade, push_l2r, push_r2l, drawer_l2r, drawer_r2l 
-                        movement_on: '375px',
-                        duration_on: 300,
-                        ease_on: 'ease-in-out',
-                        movement_off: '375px',
-                        duration_off: 300,
-                        ease_off: 'ease-in-out'
-                    }
-                },
-
-                // Screen: Animation arguments related to submenu screens..
-                Screen: {
-                    Animation: {
-                        type: 'push',
-
-                        Level1: {
-                            movement_on: '-33.33%',
-                            duration_on: 500,
-                            ease_on: 'ease-in-out',
-                            movement_off: 0,
-                            duration_off: 400,
-                            ease_off: 'ease-in-out'
-                        },
-
-                        Level2: {
-                            movement_on: '-66.66%',
-                            duration_on: 500,
-                            ease_on: 'ease-in-out',
-                            movement_off: '-33.33%',
-                            duration_off: 400,
-                            ease_off: 'ease-in-out'
-                        }
-                    }
-                }
+                type: 'regular',
+              
             },
             sm2: {},
             md: {
