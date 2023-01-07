@@ -950,6 +950,12 @@ picture {
         .section-01 {
             height: 117vh;
         }
+
+        .section-07 {
+            > .c-wrapper {
+                width: 1230px;
+            }
+        }
     }
 
     .c-wrapper {

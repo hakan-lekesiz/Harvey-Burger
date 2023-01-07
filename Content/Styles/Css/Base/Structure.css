@@ -560,6 +560,9 @@ picture {
   body .section-01 {
     height: 117vh;
   }
+  body .section-07 > .c-wrapper {
+    width: 1230px;
+  }
 
   .c-wrapper {
     width: 1230px;

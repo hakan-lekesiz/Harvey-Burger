@@ -126,6 +126,7 @@
     .section-07 {
         padding: 207px 0 120px 0;
         background: #F7F2DE;
+
         > .c-wrapper {
             display: flex;
             align-items: center;
@@ -218,6 +219,8 @@
                     }
 
                     .c-item-04 {
+                        overflow: hidden;
+
                         .c-unit-01 {
                             width: 666px;
                             height: 520px;

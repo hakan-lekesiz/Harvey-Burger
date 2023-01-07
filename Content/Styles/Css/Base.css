@@ -761,6 +761,9 @@ picture {
   body .section-01 {
     height: 117vh;
   }
+  body .section-07 > .c-wrapper {
+    width: 1230px;
+  }
 
   .c-wrapper {
     width: 1230px;
@@ -1982,6 +1985,9 @@ picture {
   }
   .section-07 > .c-wrapper .c-container .c-container-03 .c-item-02 .c-unit-03 {
     display: none;
+  }
+  .section-07 > .c-wrapper .c-container .c-container-03 .c-item-04 {
+    overflow: hidden;
   }
   .section-07 > .c-wrapper .c-container .c-container-03 .c-item-04 .c-unit-01 {
     width: 666px;
