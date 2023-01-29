@@ -430,19 +430,26 @@
     color: #A32F2A;
   }
 
-  .contact.f-scrolled-03 .comp-footer-01 {
-    background: #E60000;
-    display: block;
-  }
-  .contact.f-scrolled-03 .comp-footer-01 .c-unit-01-01 {
-    display: block;
-  }
-  .contact.f-scrolled-03 .comp-footer-01 .c-unit-01-02 {
-    display: none;
-  }
-  .contact.f-scrolled-03 .comp-header-01 {
-    background: #111;
-  }
+  /*    .contact {
+          &.f-scrolled-03 {
+              .comp-footer-01 {
+                  background: #E60000;
+                  display: block;
+
+                  .c-unit-01-01 {
+                      display: block;
+                  }
+
+                  .c-unit-01-02 {
+                      display: none;
+                  }
+              }
+
+              .comp-header-01 {
+                  background: #111;
+              }
+          }
+      }*/
 }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {

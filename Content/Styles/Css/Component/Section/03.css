@@ -125,19 +125,26 @@
     display: none;
   }
 
-  .where-we-are-body.f-scrolled-03 .comp-footer-01 {
-    background: #E60000;
-    display: block;
-  }
-  .where-we-are-body.f-scrolled-03 .comp-footer-01 .c-unit-01-01 {
-    display: block;
-  }
-  .where-we-are-body.f-scrolled-03 .comp-footer-01 .c-unit-01-02 {
-    display: none;
-  }
-  .where-we-are-body.f-scrolled-03 .comp-header-01 {
-    background: #111;
-  }
+  /*  .where-we-are-body {
+        &.f-scrolled-03 {
+            .comp-footer-01 {
+                background: #E60000;
+                display: block;
+
+                .c-unit-01-01 {
+                    display: block;
+                }
+
+                .c-unit-01-02 {
+                    display: none;
+                }
+            }
+
+            .comp-header-01 {
+                background: #111;
+            }
+        }
+    }*/
 }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
@@ -169,6 +176,9 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #000000;
+  }
+  .section-03 > .c-wrapper .c-container-01 .c-item-03 {
+    margin-bottom: 53px;
   }
   .section-03 > .c-wrapper .c-container-02 {
     display: grid;

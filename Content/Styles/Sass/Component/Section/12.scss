@@ -5,9 +5,11 @@
 /* Common xs1, xs2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
     .section-12 {
-        padding: 121px 0 0 0;
-        height: 100vh;
-
+        height: calc(100vh - 121px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.47);
 
         .c-container-01 {
             display: flex;
@@ -15,6 +17,7 @@
             align-items: center;
             justify-content: center;
             z-index: 1;
+            padding: 0 20px;
 
             > .c-item-01 {
                 margin-bottom: 13px;
@@ -76,6 +79,7 @@
             position: absolute;
             top: 0;
             left: 0;
+            z-index: -1;
         }
     }
 }
@@ -88,6 +92,7 @@
         justify-content: center;
         height: 658px;
         padding-bottom: 121px;
+        background: rgba(0, 0, 0, 0.47);
 
         .c-container-01 {
             display: flex;
@@ -151,7 +156,7 @@
             position: absolute;
             left: 0;
             top: 0;
-            background: rgba(0, 0, 0, 0.47);
+            z-index:-1;
         }
     }
 }

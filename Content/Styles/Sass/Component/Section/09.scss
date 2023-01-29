@@ -5,7 +5,10 @@
 /* Common xs1, xs2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
     .section-09 {
-        padding: 54px 0 80px 0;
+        height: calc(100vh - 121px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         > .c-item {
             position: absolute;
@@ -90,7 +93,6 @@
                 }
 
                 .c-item-02 {
-                   
                 }
             }
         }

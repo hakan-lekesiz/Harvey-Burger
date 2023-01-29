@@ -203,18 +203,6 @@ picture {
         }
 
         &.f-scrolled-02 {
-            .comp-footer-01 {
-                background: #E60000;
-                display: block;
-
-                .c-unit-01-01 {
-                    display: none;
-                }
-
-                .c-unit-01-02 {
-                    display: block;
-                }
-            }
 
             .comp-header-01 {
                 background: #E60000;
@@ -264,10 +252,6 @@ picture {
         }
 
         &.f-scrolled-03 {
-            .comp-footer-01 {
-                display: block;
-                background: #111;
-            }
 
             .comp-header-01 {
                 background: #111;
@@ -299,27 +283,6 @@ picture {
         }
 
         &.f-scrolled-04 {
-            .comp-footer-01 {
-                background: #FFF;
-
-                .scroll-animation_area__ {
-                    > .c-unit-01 {
-                        .scroll-01 {
-                            color: #000000;
-                        }
-                    }
-                }
-
-                .c-container-01 {
-                    .c-item-01 {
-                        display: none;
-                    }
-
-                    .c-item-01-B {
-                        display: flex;
-                    }
-                }
-            }
 
             .comp-header-01 {
                 background: #FFF;
@@ -371,6 +334,48 @@ picture {
                 }
             }
         }
+
+        &.f-scrolled-mobile {
+            .comp-footer-01 {
+                display: none;
+
+                .c-container-01 {
+                    .c-item-01 {
+                        display: flex;
+                    }
+
+                    .c-item-01-B {
+                        display: none;
+                    }
+                }
+
+                .c-unit-01-01 {
+                    display: block;
+                }
+
+                .c-unit-01-02 {
+                    display: none;
+                }
+            }
+        }
+
+        &.about-us {
+            .comp-footer-01 {
+                display: none;
+            }
+        }
+
+        &.contact {
+            .comp-footer-01 {
+                display: none;
+            }
+        }
+
+        &.where-we-are-body {
+            .comp-footer-01 {
+                display: none;
+            }
+        }
     }
 }
 
@@ -400,6 +405,14 @@ picture {
 
         #homePageSliderArea {
             width: 173vw;
+        }
+
+        .section-10 {
+            height: 175vh;
+
+            .c-wrapper {
+                height: 100%;
+            }
         }
     }
 
@@ -772,6 +785,7 @@ picture {
 
         &.f-scrolled-02 {
             .comp-footer-01 {
+                display: none;
                 background: #E60000;
                 display: block;
 
@@ -833,7 +847,7 @@ picture {
 
         &.f-scrolled-03 {
             .comp-footer-01 {
-                display: block;
+                display: none;
                 background: #111;
             }
 
@@ -869,6 +883,7 @@ picture {
         &.f-scrolled-04 {
             .comp-footer-01 {
                 background: #FFF;
+                display: none;
 
                 .scroll-animation_area__ {
                     > .c-unit-01 {
@@ -886,6 +901,12 @@ picture {
                     .c-item-01-B {
                         display: flex;
                     }
+                }
+            }
+
+            &.f-scrolled-09 {
+                .comp-footer-01 {
+                    display: none;
                 }
             }
 
@@ -939,6 +960,53 @@ picture {
                 }
             }
         }
+
+        &.about-us {
+
+            .comp-footer-01 {
+                background: #FFF;
+                display: block !important;
+                display: none;
+
+                .scroll-animation_area__ {
+                    > .c-unit-01 {
+                        .scroll-01 {
+                            color: #000000;
+                        }
+                    }
+                }
+
+                .c-container-01 {
+                    .c-item-01 {
+                        display: none;
+                    }
+
+                    .c-item-01-B {
+                        display: flex;
+                    }
+                }
+
+                .c-unit-01-01 {
+                    display: none;
+                }
+
+                .c-unit-01-02 {
+                    display: block;
+                }
+            }
+        }
+
+        &.contact {
+            .comp-footer-01 {
+                display: none;
+            }
+        }
+
+        &.where-we-are-body {
+            .comp-footer-01 {
+                display: none;
+            }
+        }
     }
 }
 
@@ -954,6 +1022,15 @@ picture {
         .section-07 {
             > .c-wrapper {
                 width: 1230px;
+            }
+        }
+
+        .section-10 {
+            height: 117vh;
+
+            .c-wrapper {
+                height: 100%;
+
             }
         }
     }

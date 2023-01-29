@@ -140,16 +140,6 @@ picture {
   body .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-B {
     display: none;
   }
-  body.f-scrolled-02 .comp-footer-01 {
-    background: #E60000;
-    display: block;
-  }
-  body.f-scrolled-02 .comp-footer-01 .c-unit-01-01 {
-    display: none;
-  }
-  body.f-scrolled-02 .comp-footer-01 .c-unit-01-02 {
-    display: block;
-  }
   body.f-scrolled-02 .comp-header-01 {
     background: #E60000;
   }
@@ -171,10 +161,6 @@ picture {
   body.f-scrolled-02 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-B {
     display: block;
   }
-  body.f-scrolled-03 .comp-footer-01 {
-    display: block;
-    background: #111;
-  }
   body.f-scrolled-03 .comp-header-01 {
     background: #111;
   }
@@ -189,18 +175,6 @@ picture {
   }
   body.f-scrolled-03 .comp-header-01 #site-logo > .c-item-01 > .c-unit-02 > .c-unit-01-B {
     display: none;
-  }
-  body.f-scrolled-04 .comp-footer-01 {
-    background: #FFF;
-  }
-  body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
-    color: #000000;
-  }
-  body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01 {
-    display: none;
-  }
-  body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01-B {
-    display: flex;
   }
   body.f-scrolled-04 .comp-header-01 {
     background: #FFF;
@@ -229,6 +203,30 @@ picture {
   body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-01 {
     color: #E60000;
   }
+  body.f-scrolled-mobile .comp-footer-01 {
+    display: none;
+  }
+  body.f-scrolled-mobile .comp-footer-01 .c-container-01 .c-item-01 {
+    display: flex;
+  }
+  body.f-scrolled-mobile .comp-footer-01 .c-container-01 .c-item-01-B {
+    display: none;
+  }
+  body.f-scrolled-mobile .comp-footer-01 .c-unit-01-01 {
+    display: block;
+  }
+  body.f-scrolled-mobile .comp-footer-01 .c-unit-01-02 {
+    display: none;
+  }
+  body.about-us .comp-footer-01 {
+    display: none;
+  }
+  body.contact .comp-footer-01 {
+    display: none;
+  }
+  body.where-we-are-body .comp-footer-01 {
+    display: none;
+  }
 }
 /* XS1 */
 @media all and (max-width: 419px) {
@@ -252,6 +250,12 @@ picture {
   }
   body #homePageSliderArea {
     width: 173vw;
+  }
+  body .section-10 {
+    height: 175vh;
+  }
+  body .section-10 .c-wrapper {
+    height: 100%;
   }
 
   body .comp-footer-01 {
@@ -463,6 +467,7 @@ picture {
     display: none;
   }
   body.f-scrolled-02 .comp-footer-01 {
+    display: none;
     background: #E60000;
     display: block;
   }
@@ -494,7 +499,7 @@ picture {
     display: block;
   }
   body.f-scrolled-03 .comp-footer-01 {
-    display: block;
+    display: none;
     background: #111;
   }
   body.f-scrolled-03 .comp-header-01 {
@@ -514,6 +519,7 @@ picture {
   }
   body.f-scrolled-04 .comp-footer-01 {
     background: #FFF;
+    display: none;
   }
   body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
     color: #000000;
@@ -523,6 +529,9 @@ picture {
   }
   body.f-scrolled-04 .comp-footer-01 .c-container-01 .c-item-01-B {
     display: flex;
+  }
+  body.f-scrolled-04.f-scrolled-09 .comp-footer-01 {
+    display: none;
   }
   body.f-scrolled-04 .comp-header-01 {
     background: #FFF;
@@ -551,6 +560,32 @@ picture {
   body.f-scrolled-04 .comp-header-01 #activity-container > .menu-activities .c-item-02 .c-unit-01 {
     color: #E60000;
   }
+  body.about-us .comp-footer-01 {
+    background: #FFF;
+    display: block !important;
+    display: none;
+  }
+  body.about-us .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
+    color: #000000;
+  }
+  body.about-us .comp-footer-01 .c-container-01 .c-item-01 {
+    display: none;
+  }
+  body.about-us .comp-footer-01 .c-container-01 .c-item-01-B {
+    display: flex;
+  }
+  body.about-us .comp-footer-01 .c-unit-01-01 {
+    display: none;
+  }
+  body.about-us .comp-footer-01 .c-unit-01-02 {
+    display: block;
+  }
+  body.contact .comp-footer-01 {
+    display: none;
+  }
+  body.where-we-are-body .comp-footer-01 {
+    display: none;
+  }
 }
 /* MD */
 @media all and (min-width: 1250px) and (max-width: 1679px) {
@@ -562,6 +597,12 @@ picture {
   }
   body .section-07 > .c-wrapper {
     width: 1230px;
+  }
+  body .section-10 {
+    height: 117vh;
+  }
+  body .section-10 .c-wrapper {
+    height: 100%;
   }
 
   .c-wrapper {

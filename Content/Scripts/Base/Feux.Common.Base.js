@@ -189,8 +189,10 @@ Feux.Base = {
                 }
                 //var firstSection = document.getElementsByClassName("section-01");
                 //var firstSectionScrollTop = firstSection[0].getBoundingClientRect().top;
+
                 var secondSection = document.getElementsByClassName("section-02");
-                if (secondSection.length > 0) {
+                var isHomePage = document.getElementsByClassName("homePage-01");
+                if (isHomePage.length > 0) {
                     var secondSectionScrollTop = secondSection[0].getBoundingClientRect().top;
                     var secondSectionScrollBottom = secondSection[0].getBoundingClientRect().bottom;
                     var thirdSection = document.getElementsByClassName("section-07");
@@ -200,28 +202,51 @@ Feux.Base = {
                     var fourthSectionScrollTop = fourthSection[0].getBoundingClientRect().top;
                     var fourthSectionScrollBottom = fourthSection[0].getBoundingClientRect().bottom;
 
-                    if (secondSectionScrollTop < 1400 && secondSectionScrollBottom > 0 && window.pageYOffset > 20) {
+                    var nineth = document.getElementsByClassName("section-09");
+                    var ninethSectionScrollTop = nineth[0].getBoundingClientRect().top;
+                    var ninethSectionScrollBottom = nineth[0].getBoundingClientRect().bottom;
+                    if (-811 < secondSectionScrollTop && secondSectionScrollTop < 125 && window.pageYOffset > 20) {
                         Feux.Globals.bodyElem.classList.add('f-scrolled-02');
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-03');
+                        Feux.Globals.bodyElem.classList.remove('f-scrolled-09');
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-04');
                     }
-                    else if (thirdSectionScrollTop < 1400 && thirdSectionScrollBottom > 0) {
+                    else if (thirdSectionScrollTop < 140 && thirdSectionScrollBottom > 125) {
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-02');
                         Feux.Globals.bodyElem.classList.add('f-scrolled-03');
+                        Feux.Globals.bodyElem.classList.remove('f-scrolled-09');
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-04');
                     }
-                    else if (fourthSectionScrollTop < 1400 && fourthSectionScrollBottom > 0) {
+                    else if (fourthSectionScrollTop < 140 && fourthSectionScrollBottom > 125) {
+                        Feux.Globals.bodyElem.classList.remove('f-scrolled-02');
+                        Feux.Globals.bodyElem.classList.remove('f-scrolled-03');
+                        Feux.Globals.bodyElem.classList.remove('f-scrolled-09');
+                        Feux.Globals.bodyElem.classList.add('f-scrolled-04');
+                    }
+                    else if (ninethSectionScrollTop < 140 && ninethSectionScrollBottom > 0) {
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-02');
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-03');
                         Feux.Globals.bodyElem.classList.add('f-scrolled-04');
+                        Feux.Globals.bodyElem.classList.add('f-scrolled-09');
                     }
                     else if (window.pageYOffset < 20) {
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-02');
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-03');
                         Feux.Globals.bodyElem.classList.remove('f-scrolled-04');
+                        Feux.Globals.bodyElem.classList.remove('f-scrolled-09');
                     }
                 }
-               
+
+                if (Feux.Base.Props.MediaQ.Curr.key === "xs1" || Feux.Base.Props.MediaQ.Curr.key === "xs2") {
+                    if (window.pageYOffset < 20) {
+                        Feux.Globals.bodyElem.classList.remove('f-scrolled-mobile');
+                    }
+                    else {
+                        Feux.Globals.bodyElem.classList.add('f-scrolled-mobile');
+                    }
+
+                }
+
                 if (Feux.UX.DropMenu) {
                     Feux.UX.DropMenu.onScroll();
                 }

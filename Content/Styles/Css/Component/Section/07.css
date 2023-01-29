@@ -23,6 +23,9 @@
     height: 208.58px;
     text-transform: uppercase;
   }
+  .section-07 > .c-wrapper .c-container-01 > .c-item-01 > svg {
+    margin-left: 44px;
+  }
   .section-07 > .c-wrapper .c-container-01 > .c-item-02 {
     font-weight: 900;
     font-size: 37px;
@@ -111,6 +114,9 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 39px;
+  }
+  .section-07 > .c-wrapper .c-container-01 > .c-item-01 > svg {
+    margin-left: 85px;
   }
   .section-07 > .c-wrapper .c-container-01 > .c-item-02 {
     width: 645px;

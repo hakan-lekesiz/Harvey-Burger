@@ -150,7 +150,7 @@
             }
         }
     }
-    .where-we-are-body {
+  /*  .where-we-are-body {
         &.f-scrolled-03 {
             .comp-footer-01 {
                 background: #E60000;
@@ -169,7 +169,7 @@
                 background: #111;
             }
         }
-    }
+    }*/
 }
 
 /* Common sm, md, lg */
@@ -206,6 +206,7 @@
                 }
 
                 .c-item-03 {
+                    margin-bottom: 53px;
                 }
             }
 

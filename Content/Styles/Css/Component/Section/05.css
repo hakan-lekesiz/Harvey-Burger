@@ -58,10 +58,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 85px;
   }
   .section-05 > .c-wrapper > .c-container-03 > .c-item-00 {
     font-weight: 900;
-    font-size: 45px;
+    font-size: 39px;
     line-height: 54px;
     text-align: center;
     text-transform: uppercase;
@@ -94,12 +95,11 @@
   }
   .section-05 > .c-wrapper > .c-container-03 > .c-item-03 {
     font-weight: 900;
-    font-size: 45px;
-    line-height: 54px;
+    font-size: 31px;
+    line-height: 44px;
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    padding: 0 15px;
   }
 }
 /* Common sm, md, lg */

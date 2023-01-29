@@ -75,7 +75,7 @@
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 > .c-item-02-A > .tb-placeholder-01 {
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 5px;
     padding: 0 8px;
     padding: 0 8px;
@@ -133,7 +133,7 @@
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > .tb-placeholder-01 {
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 5px;
     padding: 0 8px;
     background-color: #F7F2DE;
@@ -366,7 +366,7 @@
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 > .c-item-02-A > .tb-placeholder-01 {
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 5px;
     padding: 0 8px;
     padding: 0 8px;
@@ -424,7 +424,7 @@
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > .tb-placeholder-01 {
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 5px;
     padding: 0 8px;
     background-color: #F7F2DE;
@@ -472,7 +472,7 @@
     display: none;
     position: absolute;
     left: 4px;
-    top: calc(50% - 19px);
+    top: 10px;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-E > label:before {
     width: 25px;

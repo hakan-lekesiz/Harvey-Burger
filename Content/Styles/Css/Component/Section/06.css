@@ -1,8 +1,11 @@
 /* Common xs1, xs2 */
 @media all and (max-width: 767px) {
   .section-06 {
-    padding: 121px 0 0 0;
-    height: 100vh;
+    height: calc(100vh - 121px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.47);
   }
   .section-06 .c-container-01 {
     display: flex;
@@ -10,6 +13,7 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    padding: 0 20px;
   }
   .section-06 .c-container-01 > .c-item-01 {
     margin-bottom: 13px;
@@ -27,16 +31,18 @@
   .section-06 .c-container-01 > .c-item-02 {
     margin-bottom: 6px;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 25px;
+    line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    padding: 0 20px;
   }
   .section-06 .c-container-01 > .c-item-03 {
     margin-bottom: 40px;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
     text-align: center;
     color: #F7F2DE;
   }
@@ -60,6 +66,7 @@
   .section-06 > .c-item {
     position: absolute;
     top: 0;
+    z-index: -1;
     left: 0;
   }
 }
@@ -70,13 +77,14 @@
     align-items: center;
     justify-content: center;
     height: calc(100vh - 242px);
+    background: rgba(0, 0, 0, 0.47);
   }
   .section-06 .c-container-01 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 2;
   }
   .section-06 .c-container-01 > .c-item-01 {
     margin-bottom: 13px;
@@ -124,7 +132,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.47);
+    z-index: -1;
   }
 
   .body-about-us {
