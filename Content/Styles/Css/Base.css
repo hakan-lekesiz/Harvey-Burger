@@ -4320,14 +4320,14 @@ body.transitPage #page-wrapper {
     white-space: nowrap;
     overflow: hidden;
     font-weight: 600;
-    font-size: 2.9333333333em;
+    font-size: 1.9333333333em;
     line-height: 53px;
     color: #FFFFFF;
   }
   .comp-footer-01 > .c-wrapper > .c-container-01 > #scroll-animation .scroll-animation_area .scroll-animation_area__ > .c-unit-01 > .scroll-01 {
     display: flex;
     align-items: center;
-    animation: marquee 25s linear infinite;
+    animation: marquee 20s linear infinite;
     transform: translateX(calc(100vw - 140px));
   }
   .comp-footer-01 > .c-wrapper > .c-container-01 > #scroll-animation .scroll-animation_area .scroll-animation_area__ > .c-unit-01 > .scroll-01 > span {
