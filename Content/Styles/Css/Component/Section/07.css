@@ -36,6 +36,7 @@
   }
   .section-07 > .c-wrapper .c-container {
     overflow: hidden;
+    z-index: 1;
   }
   .section-07 > .c-wrapper .c-container .c-container-02 {
     width: 100vw;
@@ -129,6 +130,7 @@
   }
   .section-07 > .c-wrapper .c-container {
     display: flex;
+    z-index: 1;
   }
   .section-07 > .c-wrapper .c-container .c-container-02 {
     width: 100%;

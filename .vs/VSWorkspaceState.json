@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Content",
-    "\\Content\\Scripts\\Feux",
-    "\\Content\\Scripts\\Form",
+    "\\Content\\Scripts",
+    "\\Content\\Scripts\\Base",
     "\\Content\\Styles",
     "\\Content\\Styles\\Sass",
-    "\\Content\\Styles\\Sass\\Base",
     "\\Content\\Styles\\Sass\\Component",
     "\\Content\\Styles\\Sass\\Component\\Section",
-    "\\Content\\Styles\\Sass\\Shared"
+    "\\Content\\Visuals",
+    "\\Content\\Visuals\\about-us"
   ],
-  "SelectedNode": "\\Content\\Styles\\Sass\\Base\\Structure.scss",
+  "SelectedNode": "\\Content\\Scripts",
   "PreviewInSolutionExplorer": false
 }

@@ -30,8 +30,6 @@
                     > svg {
                         margin-left: 44px;
                     }
-
-                   
                 }
 
                 > .c-item-02 {
@@ -46,6 +44,7 @@
 
             .c-container {
                 overflow: hidden;
+                z-index: 1;
 
                 .c-container-02 {
                     width: 100vw;
@@ -168,7 +167,7 @@
 
             .c-container {
                 display: flex;
-
+                z-index:1;
                 .c-container-02 {
                     width: 100%;
 
