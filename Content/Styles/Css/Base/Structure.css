@@ -519,7 +519,7 @@ picture {
   }
   body.f-scrolled-04 .comp-footer-01 {
     background: #FFF;
-    display: none;
+    display: block;
   }
   body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
     color: #000000;

@@ -332,7 +332,6 @@
                                                 font-weight: 400;
                                                 font-size: 0.8823529411764706em;
                                                 line-height: 12px;
-                                                color: #828282;
                                             }
                                         }
 
@@ -343,7 +342,6 @@
                                                 font-weight: 400;
                                                 font-size: 0.8823529411764706em;
                                                 line-height: 12px;
-                                                color: #828282;
                                             }
                                         }
                                     }
@@ -628,7 +626,7 @@
 
                             .c-unit-04-A {
                                 display: flex;
-                                align-items: center;
+                                align-items: end;
 
                                 .c-unit-04-A-01 {
                                     margin-right: 7px;
@@ -900,7 +898,6 @@
                                                 font-weight: 400;
                                                 font-size: 0.8823529411764706em;
                                                 line-height: 12px;
-                                                color: #828282;
                                             }
                                         }
 
@@ -911,7 +908,6 @@
                                                 font-weight: 400;
                                                 font-size: 0.8823529411764706em;
                                                 line-height: 12px;
-                                                color: #828282;
                                             }
                                         }
                                     }
@@ -975,7 +971,7 @@
                                             display: none;
                                             position: absolute;
                                             left: 4px;
-                                            top: calc(50% - 20px);
+                                            top: 10px;
                                         }
 
                                         &:before {

@@ -201,6 +201,9 @@
   #hamburger-menu-wrapper .ul-level-1 > li.menu-li-second-item > a {
     padding-left: 11px;
   }
+  #hamburger-menu-wrapper .ul-level-1 > li.menu-li-second-item .menu-hover-svg {
+    transform: scaleX(-1);
+  }
   #hamburger-menu-wrapper .ul-level-1 > li.lang-container > .c-item-02 {
     pointer-events: none;
     cursor: default;

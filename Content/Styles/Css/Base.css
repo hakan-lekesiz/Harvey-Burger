@@ -720,7 +720,7 @@ picture {
   }
   body.f-scrolled-04 .comp-footer-01 {
     background: #FFF;
-    display: none;
+    display: block;
   }
   body.f-scrolled-04 .comp-footer-01 .scroll-animation_area__ > .c-unit-01 .scroll-01 {
     color: #000000;
@@ -1806,7 +1806,7 @@ picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 242px);
+    height: 658px;
     background: rgba(0, 0, 0, 0.47);
   }
   .section-06 .c-container-01 {
@@ -2436,7 +2436,6 @@ picture {
     font-weight: 400;
     font-size: 0.8823529412em;
     line-height: 12px;
-    color: #828282;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > input:not([value=""]):not(:focus) ~ .tb-placeholder-01 {
     transform: translateY(-19px);
@@ -2444,7 +2443,6 @@ picture {
     font-weight: 400;
     font-size: 0.8823529412em;
     line-height: 12px;
-    color: #828282;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > .tb-placeholder-01 {
     position: absolute;
@@ -2727,7 +2725,6 @@ picture {
     font-weight: 400;
     font-size: 0.8823529412em;
     line-height: 12px;
-    color: #828282;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > input:not([value=""]):not(:focus) ~ .tb-placeholder-01 {
     transform: translateY(-19px);
@@ -2735,7 +2732,6 @@ picture {
     font-weight: 400;
     font-size: 0.8823529412em;
     line-height: 12px;
-    color: #828282;
   }
   .section-10 > .c-wrapper .column-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > .tb-placeholder-01 {
     position: absolute;
@@ -3166,7 +3162,6 @@ picture {
     font-weight: 400;
     font-size: 0.8823529412em;
     line-height: 12px;
-    color: #828282;
   }
   .section-11 .c-wrapper .column-02 .c-container-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > input:not([value=""]):not(:focus) ~ .tb-placeholder-01 {
     transform: translateY(-19px);
@@ -3174,7 +3169,6 @@ picture {
     font-weight: 400;
     font-size: 0.8823529412em;
     line-height: 12px;
-    color: #828282;
   }
   .section-11 .c-wrapper .column-02 .c-container-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > .tb-placeholder-01 {
     position: absolute;
@@ -3401,7 +3395,7 @@ picture {
   }
   .section-11 .c-wrapper .column-01 .c-container-01 .c-item-02 .c-unit-04 .c-unit-04-A {
     display: flex;
-    align-items: center;
+    align-items: end;
   }
   .section-11 .c-wrapper .column-01 .c-container-01 .c-item-02 .c-unit-04 .c-unit-04-A .c-unit-04-A-01 {
     margin-right: 7px;
@@ -3632,7 +3626,6 @@ picture {
     font-weight: 400;
     font-size: 0.8823529412em;
     line-height: 12px;
-    color: #828282;
   }
   .section-11 .c-wrapper .column-02 .c-container-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > input:not([value=""]):not(:focus) ~ .tb-placeholder-01 {
     transform: translateY(-19px);
@@ -3640,7 +3633,6 @@ picture {
     font-weight: 400;
     font-size: 0.8823529412em;
     line-height: 12px;
-    color: #828282;
   }
   .section-11 .c-wrapper .column-02 .c-container-01 .form-area > #form-container1 > .c-item-022 .c-item-02-D > .tb-placeholder-01 {
     position: absolute;
@@ -3692,7 +3684,7 @@ picture {
     display: none;
     position: absolute;
     left: 4px;
-    top: calc(50% - 20px);
+    top: 10px;
   }
   .section-11 .c-wrapper .column-02 .c-container-01 .form-area > #form-container1 > .c-item-022 .c-item-02-E > label:before {
     width: 25px;
@@ -5009,6 +5001,9 @@ body.transitPage #page-wrapper {
   }
   #hamburger-menu-wrapper .ul-level-1 > li.menu-li-second-item > a {
     padding-left: 11px;
+  }
+  #hamburger-menu-wrapper .ul-level-1 > li.menu-li-second-item .menu-hover-svg {
+    transform: scaleX(-1);
   }
   #hamburger-menu-wrapper .ul-level-1 > li.lang-container > .c-item-02 {
     pointer-events: none;

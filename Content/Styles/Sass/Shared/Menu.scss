@@ -281,6 +281,10 @@
                     > a {
                         padding-left: 11px;
                     }
+
+                    .menu-hover-svg {
+                        transform: scaleX(-1);
+                    }
                 }
 
                 &.lang-container {

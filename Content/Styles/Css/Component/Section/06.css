@@ -76,7 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 242px);
+    height: 658px;
     background: rgba(0, 0, 0, 0.47);
   }
   .section-06 .c-container-01 {
