@@ -169,7 +169,7 @@ const mapStyle = [
     }
 ];
 
-var markerIconCenter = "/Content/Visuals/center-marker.png";
+var markerIconCenter = "/Content/Visuals/menu-logo-01.png";
 var markerIcon = "/Content/Visuals/marker.png";
 var centerCords = { lat: 40.895752, lng: 29.226166 };
 var InforObj = [];
