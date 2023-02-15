@@ -350,30 +350,30 @@
        
     },
    
-    handlePageTransitLinks: function () {
+    //handlePageTransitLinks: function () {
 
-        setTimeout(function () {
-            Feux.Globals.bodyElem.classList.remove("transitPage");
-        }, 1000);
+    //    setTimeout(function () {
+    //        Feux.Globals.bodyElem.classList.remove("transitPage");
+    //    }, 1000);
 
-        var links = document.querySelectorAll('[data-page-transit]');
+    //    var links = document.querySelectorAll('[data-page-transit]');
 
-        //for (var i = 0; i < links.length; i++) {
+    //    for (var i = 0; i < links.length; i++) {
 
-        //    links[i].addEventListener('click', function (event) {
-        //        event.preventDefault();
+    //        links[i].addEventListener('click', function (event) {
+    //            event.preventDefault();
 
-        //        Feux.Globals.bodyElem.classList.add("transitPage");
+    //            Feux.Globals.bodyElem.classList.add("transitPage");
 
-        //        var href = this.href;
-        //        setTimeout(function () {
-        //            window.location.href = href;
-        //        }, 1000);
+    //            var href = this.href;
+    //            setTimeout(function () {
+    //                window.location.href = href;
+    //            }, 1000);
 
-        //    });
-        //}
-    },
+    //        });
+    //    }
+    //},
 };
 
 
-Feux.UX.handlePageTransitLinks();
+//Feux.UX.handlePageTransitLinks();
