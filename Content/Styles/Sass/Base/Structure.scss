@@ -357,6 +357,20 @@ picture {
                     display: none;
                 }
             }
+
+            &.f-scrolled-04 {
+                .menu-buttons {
+                    > #button-hamburger {
+                        > .hamburger-mobile {
+                            > svg{
+                                > path{
+                                    fill:#000;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         &.about-us {

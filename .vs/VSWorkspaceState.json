@@ -3,14 +3,14 @@
     "",
     "\\Content",
     "\\Content\\Scripts",
-    "\\Content\\Scripts\\Base",
+    "\\Content\\Scripts\\Feux",
+    "\\Content\\Scripts\\Form",
+    "\\Content\\Scripts\\Static",
     "\\Content\\Styles",
     "\\Content\\Styles\\Sass",
-    "\\Content\\Styles\\Sass\\Component",
-    "\\Content\\Styles\\Sass\\Component\\Section",
-    "\\Content\\Visuals",
-    "\\Content\\Visuals\\about-us"
+    "\\Content\\Styles\\Sass\\Base",
+    "\\Content\\Styles\\Sass\\Form"
   ],
-  "SelectedNode": "\\Content\\Scripts",
+  "SelectedNode": "\\Content\\Scripts\\Base\\Feux.Menu.Primary.js",
   "PreviewInSolutionExplorer": false
 }

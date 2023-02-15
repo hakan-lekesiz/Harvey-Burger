@@ -419,6 +419,9 @@ picture {
   body.f-scrolled-mobile .comp-footer-01 .c-unit-01-02 {
     display: none;
   }
+  body.f-scrolled-mobile.f-scrolled-04 .menu-buttons > #button-hamburger > .hamburger-mobile > svg > path {
+    fill: #000;
+  }
   body.about-us .comp-footer-01 {
     display: none;
   }
@@ -2604,6 +2607,7 @@ picture {
     padding: 205px 0 91px 0;
     background: #F7F2DE;
     padding: 121px 0 0 0;
+    height: 100vh;
   }
   .section-10 > .c-wrapper {
     display: flex;
@@ -2611,6 +2615,7 @@ picture {
     padding: 0 0 0 186px;
     justify-content: space-between;
     width: 100%;
+    height: 100%;
   }
   .section-10 > .c-wrapper .column-01 {
     width: calc(50% - 40px);
@@ -4927,6 +4932,12 @@ body.transitPage #page-wrapper {
   }
   #hamburger-menu-wrapper .ul-level-1 > li > a > svg, #hamburger-menu-wrapper .ul-level-2 > li > a > svg, #hamburger-menu-wrapper .ul-level-3 > li > a > svg {
     margin-right: 12px;
+  }
+  #hamburger-menu-wrapper .ul-level-1 > li > a > .c-unit-01, #hamburger-menu-wrapper .ul-level-2 > li > a > .c-unit-01, #hamburger-menu-wrapper .ul-level-3 > li > a > .c-unit-01 {
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    color: #FFFFFF !important;
   }
   #hamburger-menu-wrapper .ul-level-1 {
     padding-bottom: 74px;

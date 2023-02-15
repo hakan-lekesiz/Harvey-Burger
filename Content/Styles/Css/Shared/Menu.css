@@ -127,6 +127,12 @@
   #hamburger-menu-wrapper .ul-level-1 > li > a > svg, #hamburger-menu-wrapper .ul-level-2 > li > a > svg, #hamburger-menu-wrapper .ul-level-3 > li > a > svg {
     margin-right: 12px;
   }
+  #hamburger-menu-wrapper .ul-level-1 > li > a > .c-unit-01, #hamburger-menu-wrapper .ul-level-2 > li > a > .c-unit-01, #hamburger-menu-wrapper .ul-level-3 > li > a > .c-unit-01 {
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    color: #FFFFFF !important;
+  }
   #hamburger-menu-wrapper .ul-level-1 {
     padding-bottom: 74px;
     height: calc(100vh - 203px);

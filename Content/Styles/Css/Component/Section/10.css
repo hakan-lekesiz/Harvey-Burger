@@ -289,6 +289,7 @@
     padding: 205px 0 91px 0;
     background: #F7F2DE;
     padding: 121px 0 0 0;
+    height: 100vh;
   }
   .section-10 > .c-wrapper {
     display: flex;
@@ -296,6 +297,7 @@
     padding: 0 0 0 186px;
     justify-content: space-between;
     width: 100%;
+    height: 100%;
   }
   .section-10 > .c-wrapper .column-01 {
     width: calc(50% - 40px);

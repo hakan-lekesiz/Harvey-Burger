@@ -218,6 +218,9 @@ picture {
   body.f-scrolled-mobile .comp-footer-01 .c-unit-01-02 {
     display: none;
   }
+  body.f-scrolled-mobile.f-scrolled-04 .menu-buttons > #button-hamburger > .hamburger-mobile > svg > path {
+    fill: #000;
+  }
   body.about-us .comp-footer-01 {
     display: none;
   }
